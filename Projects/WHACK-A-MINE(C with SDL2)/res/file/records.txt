@@ -1,0 +1,20 @@
+Thu Jan 25 15:34:35 2024
+ Win. Mine found: 10, Health: 4, Time 01:08, Shrew hit: 55.
+Thu Jan 25 15:33:19 2024
+ Lose. Mine found: 5, Health: 0, Time 00:22, Shrew hit: 10.
+Wed Jan 24 08:29:34 2024
+ Win. Mine found: 10, Health: 2, Time 00:54, Shrew hit: 43.
+Fri Jan 19 17:12:49 2024
+ Win. Mine found: 10, Health: 3, Time 00:57, Shrew hit: 49.
+Fri Jan 19 17:11:35 2024
+ Win. Mine found: 10, Health: 4, Time 00:40, Shrew hit: 23.
+Fri Jan 19 10:55:46 2024
+ Lose. Mine found: 2, Health: 0, Time 00:14, Shrew hit: 5.
+Fri Jan 19 10:49:49 2024
+ Lose. Mine found: 9, Health: 0, Time 00:51, Shrew hit: 32.
+Fri Jan 19 09:19:08 2024
+ Lose. Mine found: 8, Health: 0, Time 00:44, Shrew hit: 30.
+Fri Jan 19 09:12:46 2024
+ Win. Mine found: 10, Health: 2, Time 00:36, Shrew hit: 26.
+Fri Jan 19 09:08:44 2024
+ Lose. Mine found: 1, Health: 0, Time 00:20, Shrew hit: 6.
