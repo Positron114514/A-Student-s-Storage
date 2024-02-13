@@ -957,6 +957,128 @@ int Stack::top() {
 
 ## 五. 使用类
 
+### 5.1 运算符重载
+
+函数名: type operatorop(type a);
+
+ a + b -> a.operator+(b)
+
+example:
+```cpp
+Stack Stack::operator+(Stack& a) {
+    while (!is_full() && !a.is_empty()) {
+        push(a.top());
+        a.pop();
+    }
+    return *this;
+}
+```
+
+
+- a + b + c -> a.operator+(b.operator+(c))  **valid**
+
+重载限制: 
+
+1. 两个参数必须有一个是用户自己定义的类型(防止用户重载Cpp内含的运算符规则)
+2. 使用运算符时不能违反原来的句法规则
+3. 运算符遵循Cpp的优先级
+4. 不能创建新运算符
+5. 以下运算符不能重载: `sizeof`  `.` `.*` `::` `?:` `typeid` `const_cast` `dynamic_cast` `reinterpret_cast`  `static_cast`  (后四个为强制类型转换运算符) 
+6. 以下四个运算符只能通过成员函数进行重载: `=` `()` `[]` `->`
+
+
+### 5.2 友元
+
+友元有一下三种: 
+- 友元函数
+- 友元类
+- 友元成员函数
+
+**创建友元**
+
+将friend放在类中函数的前面:
+
+```cpp
+friend Time operator*(doublem, const Time &t);
+```
+
+> operator*() 不是成员函数, 不能用`.` 调用.
+> operator*() 与成员函数的访问权限相同.
+
+**编写函数定义**
+
+```cpp
+Time operator*(double m, const Time &t){
+	Time result;
+	long total_minutes = t.hours * mult * 60 + t.minutes * mult;
+	result.hours = total_minutes / 60;
+}
+```
+
+> 由于operator*() 不是类方法, 因此不需要写 Time::operator*()
+
+- 用如下方法可以将该友元函数编写为非友元函数:
+
+```cpp
+Time operator*(double m, const Time &t){
+	return t * m;  // use t.operator*(m)
+}
+```
+
+解决了顺序问题.
+
+**例子: 对 << 进行重载:**
+
+对 << 进行重载, 使其能输出Stack中的所有元素
+
+- W1: 将新函数定义添加到ostream类中
+- W2: 通过Stack类声明让Time知道如何使用cout
+
+example:
+
+```cpp
+class Stack {
+   private:
+    int size_;
+    int* item;
+    int pointer;
+
+   public:
+    Stack(int size);
+    bool push(int target);
+    bool pop();
+    int top();
+    bool is_empty();
+    bool is_full();
+    friend std::ostream &operator<<(std::ostream& os, Stack& target);
+    Stack operator+(Stack& a);
+    ~Stack();
+};
+
+int main(){
+	using std::cout;
+	
+	Stack s{100};
+	Stack t{100};
+	for(int i = 1; i < 10; i++){
+		s.push(i);
+		t.push(i * i);
+	}
+
+	cout << s << t;
+	return 0;
+}
+
+std::ostream &operator<<(std::ostream& os, Stack& target) {
+    using std::endl;
+
+    for (int i = target.pointer - 1; i >= 0; i--) {
+        os << target.item[i] << endl;
+    }
+
+	return os;
+}
+```
 
 
 
