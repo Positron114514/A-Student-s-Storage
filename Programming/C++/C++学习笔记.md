@@ -794,7 +794,168 @@ const Stock& Stock::top_val(const Stock& s) const {
 ```
 
 
+### 4.4 类作用域
 
+外界调用共有成员函数, 必须通过对象调用
+类内部调用时, 可以不加修饰直接调用
+
+#### 4.4.1 作用域为类的常量
+
+有时类的内部需要一些常量(如MAX_NUM = 100), 然而在类声明时不会给变量分配内存, 因此如下的写法不可行:
+
+```c++
+class Genshin{
+	private:
+		const int months = 12;
+		double costs[months];  // false
+		...
+}
+```
+
+
+正确的实现方法:
+
+- W1: 创建枚举常量
+
+```cpp
+class Genshin{
+	private:
+		enum {Months = 12};  // 声明枚举类型
+		double costs[Months];
+}
+```
+
+`ios_base` 中用了类似方法, 如`ios_base::fixed` 
+
+- W2: `static`
+
+```cpp
+class Genshin{
+	private:
+		static const int Months = 12;
+		double costs[Months];
+		...
+}
+```
+
+创建了一个常量, 该常量和其他static变量存储在一起, 而不是存储在对象中.
+
+#### 4.4.2 作用域内枚举
+
+```cpp
+enum class egg {Small, Medium, Large, Jumbo};
+enum class t_shirt {Small, Medium, Large, Jumbo};
+```
+
+or:
+
+```cpp
+enum struct egg {Small, Medium, Large, Jumbo};
+```
+
+use:
+
+```cpp
+egg_choice = egg::Large;
+```
+
+作用域内枚举**不能**隐式地转换为int, 但可以显式转换
+
+C++11中枚举类型默认用int表示, 但可以自行做出选择:
+
+```cpp
+enum class :short pizza {Small, Medium, Large, XLarge};
+```
+
+### 4.5 抽象数据类型
+
+example: 栈
+
+```cpp
+// 声明
+// stack.h
+#ifndef STACK_H_
+#define STACK_H_
+
+class Stack {
+   private:
+    int size_;
+    int* item;
+    int pointer;
+
+   public:
+    Stack(int size);
+    bool push(int target);
+    bool pop();
+    int top();
+    bool is_empty();
+    bool is_full();
+    ~Stack();
+};
+
+#endif
+```
+
+```cpp
+// 定义
+// stack.cpp
+#include <iostream>
+#include <stack.h>
+
+Stack::Stack(int size) {
+    size_ = size;
+    item = new int[size];
+    pointer = 0;
+}
+
+Stack::~Stack() {
+    delete[] item;
+}
+
+bool Stack::is_empty() {
+    if (pointer == 0) {
+        return 1;
+    }
+    return 0;
+}
+
+bool Stack::is_full() {
+    if (pointer == size_) {
+        return 1;
+    }
+    return 0;
+}
+
+bool Stack::push(int target) {
+    if (is_full()) {
+        std::cout << "ERROR: Stack is full.\n";
+        return false;
+    }
+    item[pointer++] = target;
+    return true;
+}
+
+bool Stack::pop() {
+    if (is_empty()) {
+        std::cout << "ERROR: Stack is empty.\n";
+        return false;
+    }
+	--pointer;
+    return true;
+}
+
+int Stack::top() {
+    if (is_empty()) {
+        std::cout << "ERROR: Stack is empty.\n";
+        return 0;
+    }
+
+    return item[pointer - 1];
+}
+```
+
+
+## 五. 使用类
 
 
 
