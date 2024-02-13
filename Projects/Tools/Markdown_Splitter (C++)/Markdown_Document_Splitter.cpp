@@ -43,7 +43,8 @@ int main() {
     cin >> path;
     input_file.open(path);
     if (input_file.is_open() == false) {
-        cout << "Fail to load file: " << path << endl;
+        cout << "ERROR: Fail to load file: " << path << endl;
+        system("pause");
         exit(EXIT_FAILURE);
     }
 
@@ -58,7 +59,8 @@ int main() {
     char buffer[MAX_LEN + 1]{};
     output_file.open(name);
     if (output_file.is_open() == false) {
-        cout << "Fail to load path: " << output_path << endl;
+        cout << "ERROE: Fail to load path: " << output_path << endl;
+        system("pause");
         exit(EXIT_FAILURE);
     }
 
