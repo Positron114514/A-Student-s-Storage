@@ -7,6 +7,7 @@
   "canvas",
   "outgoing-link",
   "tag-pane",
+  "properties",
   "page-preview",
   "daily-notes",
   "templates",
@@ -14,7 +15,13 @@
   "command-palette",
   "editor-status",
   "bookmarks",
+  "markdown-importer",
+  "zk-prefixer",
+  "random-note",
   "outline",
   "word-count",
+  "slides",
+  "audio-recorder",
+  "workspaces",
   "file-recovery"
 ]

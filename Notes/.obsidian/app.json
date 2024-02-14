@@ -1,6 +1,8 @@
 {
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "alwaysUpdateLinks": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "00 Resource/res",
+  "newFileFolderPath": "00 NewFile",
+  "trashOption": "local"
 }

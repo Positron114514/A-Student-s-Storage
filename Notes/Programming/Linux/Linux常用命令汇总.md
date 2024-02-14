@@ -1,10 +1,7 @@
-# Linux 学习心得
+
 
 > Created by Positron114514 on 2024/2/7
 
-
-
-## 1. 常用命令
 
 以下是一些在Linux系统中常用的命令：
 

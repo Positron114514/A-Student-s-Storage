@@ -203,7 +203,7 @@ void write(ostream& os, const char* content) {
 
 ### 3. 默认参数
 
-和python的一样
+和[[../python/python学习笔记#四. 函数|python]]一样
 
 - 只需要在函数声明中给默认参数赋值即可, 函数定义中**不能**再写一遍(会Compile Error)
 

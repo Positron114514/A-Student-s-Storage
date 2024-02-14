@@ -4,52 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "761dd1bd985cda79",
+        "id": "981877bdcc2cd2a5",
         "type": "tabs",
-        "dimension": 53.96634615384615,
         "children": [
           {
-            "id": "bab5dffed707942a",
+            "id": "6e912383082b0516",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
+                "file": "Programming/算法学习笔记.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "82511f98bb33456e",
+            "id": "6fd9b1d22ff7d388",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Programming/python/python学习笔记.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "981877bdcc2cd2a5",
-        "type": "tabs",
-        "dimension": 46.03365384615385,
-        "children": [
+          },
           {
-            "id": "c93423dde3ada3c8",
+            "id": "43260b0506a7513d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Programming/C/CPL进阶-翁恺.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -116,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Programming/C/CPL进阶-翁恺.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Programming/C/CPL进阶-翁恺.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,16 +150,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md"
+                "file": "Programming/C/CPL进阶-翁恺.md"
+              }
+            }
+          },
+          {
+            "id": "c364a4684555a642",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,26 +181,39 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "random-note:开始漫游笔记": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c93423dde3ada3c8",
+  "active": "43260b0506a7513d",
   "lastOpenFiles": [
-    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
-    "Programming/C++/C++学习笔记.md",
-    "sync.ffs_lock",
-    "sync.ffs_db.5f65.ffs_tmp",
-    "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
-    "Excalidraw",
-    "Programming/C/CPL进阶-翁恺.md",
-    "Programming/C/VSCode Cheat Sheet and Quick Reference.pdf",
-    "Programming/算法学习笔记.md",
-    "sync.ffs_db.2fef.ffs_tmp",
-    "Programming/C/CPL进阶笔记.pdf",
     "Programming/C/C Primer Plus 第六版 [带书签].pdf",
-    "README.md",
-    "新建 文本文档.txt",
+    "Programming/C/CLion-ReferenceCard.pdf",
+    "Programming/C/vscode-shortcuts-windows.pdf",
+    "Programming/C/VSCode Cheat Sheet and Quick Reference.pdf",
+    "Programming/Linux/Linux常用命令汇总.md",
+    "Programming/C++/C++学习笔记.md",
+    "Programming/python/python学习笔记.md",
+    "Programming/算法学习笔记.md",
+    "Programming/python/爬虫基础知识.md",
+    "Programming/C/CPL进阶-翁恺.md",
+    "00 NewFile/2024-02-14.md",
+    "Programming/数据结构与算法分析：C语言描述（原书第2版）.pdf",
+    "Programming/书籍推荐.jpg",
+    "Programming/python/python学习笔记.pdf",
+    "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
+    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "00 Resource/template/日记模板.md",
+    "00 Diary",
+    "Diary",
     "新建文件夹",
+    "00 Resource/template",
+    "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
+    "README.md",
     "未命名.canvas"
   ]
 }
