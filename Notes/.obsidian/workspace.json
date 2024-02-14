@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "1c06a5b92b1164ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "761dd1bd985cda79",
+        "type": "tabs",
+        "dimension": 53.96634615384615,
+        "children": [
+          {
+            "id": "bab5dffed707942a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
+              }
+            }
+          },
+          {
+            "id": "82511f98bb33456e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "981877bdcc2cd2a5",
+        "type": "tabs",
+        "dimension": 46.03365384615385,
+        "children": [
+          {
+            "id": "c93423dde3ada3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0c0f2a5177e1238",
+    "type": "split",
+    "children": [
+      {
+        "id": "4daef5532de254e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "505439c4e94f71ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b56e2c323c689687",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8c0e1727734f8cc1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "58521eabd6c9dbc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "573d54aa5b3a02e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a02747cc466626aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30c7d1f31ead77ff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25e6ee672b55b3ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5d98b6b6fe9dc542",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "c93423dde3ada3c8",
+  "lastOpenFiles": [
+    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "Programming/C++/C++学习笔记.md",
+    "sync.ffs_lock",
+    "sync.ffs_db.5f65.ffs_tmp",
+    "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
+    "Excalidraw",
+    "Programming/C/CPL进阶-翁恺.md",
+    "Programming/C/VSCode Cheat Sheet and Quick Reference.pdf",
+    "Programming/算法学习笔记.md",
+    "sync.ffs_db.2fef.ffs_tmp",
+    "Programming/C/CPL进阶笔记.pdf",
+    "Programming/C/C Primer Plus 第六版 [带书签].pdf",
+    "README.md",
+    "新建 文本文档.txt",
+    "新建文件夹",
+    "未命名.canvas"
+  ]
+}
