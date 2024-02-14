@@ -1,3 +1,4 @@
+#程序设计 #python #基础教程 
 # Python 学习笔记
 
 > Created by lxx11451 on 2024/1/18
@@ -1582,6 +1583,8 @@ if __name__ == '__main__':
 ## 九. 正则表达式
 
 **正则表达式相关知识** [正则表达式30分钟入门教程 (deerchao.cn)](https://deerchao.cn/tutorials/regex/regex.htm)
+
+更加详细的正则表达式教程: [[../Miscell/正则表达式|正则表达式]]
 
 - Python 提供 re 模块支持正则表达式 :
 

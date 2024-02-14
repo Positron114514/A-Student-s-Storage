@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e912383082b0516",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/算法学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6fd9b1d22ff7d388",
             "type": "leaf",
             "state": {
@@ -37,14 +25,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/C/CPL进阶-翁恺.md",
+                "file": "Programming/Linux/Linux常用命令汇总.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5360bf6138759f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Miscell/解释型语言与编译型语言.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e38baa7ccfb2bd27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Diary/2024-02-14.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#基础教程",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C/CPL进阶-翁恺.md",
+                "file": "Programming/python/python学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C/CPL进阶-翁恺.md",
+                "file": "Programming/python/python学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C/CPL进阶-翁恺.md"
+                "file": "Programming/python/python学习笔记.md"
               }
             }
           },
@@ -189,29 +200,35 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "43260b0506a7513d",
+  "active": "6fd9b1d22ff7d388",
   "lastOpenFiles": [
-    "Programming/C/C Primer Plus 第六版 [带书签].pdf",
-    "Programming/C/CLion-ReferenceCard.pdf",
-    "Programming/C/vscode-shortcuts-windows.pdf",
-    "Programming/C/VSCode Cheat Sheet and Quick Reference.pdf",
-    "Programming/Linux/Linux常用命令汇总.md",
-    "Programming/C++/C++学习笔记.md",
-    "Programming/python/python学习笔记.md",
-    "Programming/算法学习笔记.md",
-    "Programming/python/爬虫基础知识.md",
-    "Programming/C/CPL进阶-翁恺.md",
-    "00 NewFile/2024-02-14.md",
-    "Programming/数据结构与算法分析：C语言描述（原书第2版）.pdf",
-    "Programming/书籍推荐.jpg",
-    "Programming/python/python学习笔记.pdf",
-    "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
-    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "00 Diary/2024-02-14.md",
     "00 Resource/template/日记模板.md",
-    "00 Diary",
-    "Diary",
+    "Programming/python/python学习笔记.md",
+    "Programming/C++/C++学习笔记.md",
+    "Algorithm/算法学习笔记.md",
+    "Programming/SDL/SDL入门.md",
+    "Programming/python/爬虫基础知识.md",
+    "Programming/Miscell/解释型语言与编译型语言.md",
+    "Programming/Linux/Linux常用命令汇总.md",
+    "Programming/C/CPL进阶-翁恺.md",
+    "Programming/Miscell/正则表达式.md",
+    "Algorithm/数据结构与算法分析：C语言描述（原书第2版）.pdf",
+    "Algorithm",
+    "新建文件夹/算法学习笔记.md",
+    "新建文件夹/数据结构与算法分析：C语言描述（原书第2版）.pdf",
     "新建文件夹",
-    "00 Resource/template",
+    "Programming/Miscell",
+    "Programming/新建文件夹",
+    "未命名",
+    "RecycleBin~aa3e.ffs_tmp",
+    "sync.ffs_lock",
+    "Programming/Linux/Linux学习心得.md",
+    "Programming/C/C Primer Plus 第六版 [带书签].pdf",
+    "Programming/算法学习笔记.md",
+    "00 NewFile/2024-02-14.md",
+    "Programming/书籍推荐.jpg",
+    "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
     "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
     "README.md",
     "未命名.canvas"
