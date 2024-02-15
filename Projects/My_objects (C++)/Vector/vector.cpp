@@ -98,6 +98,12 @@ Vector operator*(double num, const Vector& v) {
 
 std::ostream& operator<<(std::ostream& os, const Vector& v) {
     using std::endl;
+    using std::ios_base;
+    using std::streamsize;
+    // 更改精度
+    ios_base::fmtflags orig_flag =
+        os.setf(ios_base::fixed, ios_base::floatfield);
+    streamsize orig = os.precision(5);
 
     if (v.mode == v.RECT) {
         os << v.x << " " << v.y << endl;
@@ -105,6 +111,7 @@ std::ostream& operator<<(std::ostream& os, const Vector& v) {
         os << v.mag << " " << v.ang << endl;
     }
 
+    os.precision(orig);
     return os;
 }
 

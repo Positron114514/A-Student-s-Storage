@@ -33,7 +33,7 @@ typedef struct{
 	int *content;
 	int top;
 	int size;
-	(void) *pop();
+	void (*pop)();
 } Stack;
 ```
 

@@ -186,7 +186,7 @@ void write(ostream& os, const char* content) {
 
 - setf: 设置格式
 
-  - ```cpp
+  ```cpp
     std::cout.setf(std::ios::fixed); // 将浮点数显示为固定小数点格式
     std::cout.setf(std::ios::showpoint); // 显示浮点数的小数点和尾随零
     std::cout.setf(std::ios::hex, std::ios::basefield); // 以十六进制输出整数
@@ -987,7 +987,7 @@ Stack Stack::operator+(Stack& a) {
 3. 运算符遵循Cpp的优先级
 4. 不能创建新运算符
 5. 以下运算符不能重载: `sizeof`  `.` `.*` `::` `?:` `typeid` `const_cast` `dynamic_cast` `reinterpret_cast`  `static_cast`  (后四个为强制类型转换运算符) 
-6. 以下四个运算符只能通过成员函数进行重载: `=` `()` `[]` `->`
+6. 以下四个运算符只能通过成员函数进行重载: ` = ` `()` `[]` `->`
 
 
 ### 5.2 友元
@@ -1124,6 +1124,7 @@ class Vector {
     // operator overload
     Vector operator+(Vector& v) const;
     Vector operator-(Vector& v) const;
+    Vector operator-() const;
     Vector operator*(double number) const;
     // friends
     friend Vector operator*(double number, Vector& v);
@@ -1222,6 +1223,10 @@ Vector Vector::operator+(Vector& v) const {
 
 Vector Vector::operator-(Vector& v) const {
     return Vector{x - v.x, y - v.y};
+}
+
+Vector Vector::operator-() const{
+	return Vector{-x, -y};
 }
 
 Vector Vector::operator*(double number) const {
