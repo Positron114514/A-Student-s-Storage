@@ -4,52 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "981877bdcc2cd2a5",
+        "id": "373afe295633359c",
         "type": "tabs",
         "children": [
           {
-            "id": "6fd9b1d22ff7d388",
+            "id": "153cb356b99cc11c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
-                "mode": "source",
-                "source": false
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "382117d9f4c6d698",
+        "type": "tabs",
+        "children": [
           {
-            "id": "43260b0506a7513d",
+            "id": "1ec347b1a88e149f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Linux/Linux常用命令汇总.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d5360bf6138759f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Miscell/解释型语言与编译型语言.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e38baa7ccfb2bd27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Diary/2024-02-14.md",
+                "file": "Programming/C++/C++学习笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#基础教程",
+                "query": "tag:#程序设计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -121,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,9 +119,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -161,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/python/python学习笔记.md"
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
               }
             }
           },
@@ -182,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,36 +182,41 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6fd9b1d22ff7d388",
+  "active": "153cb356b99cc11c",
   "lastOpenFiles": [
-    "00 Diary/2024-02-14.md",
-    "00 Resource/template/日记模板.md",
-    "Programming/python/python学习笔记.md",
     "Programming/C++/C++学习笔记.md",
-    "Algorithm/算法学习笔记.md",
-    "Programming/SDL/SDL入门.md",
-    "Programming/python/爬虫基础知识.md",
+    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "00 Diary/2024-02-14.md",
     "Programming/Miscell/解释型语言与编译型语言.md",
     "Programming/Linux/Linux常用命令汇总.md",
-    "Programming/C/CPL进阶-翁恺.md",
-    "Programming/Miscell/正则表达式.md",
-    "Algorithm/数据结构与算法分析：C语言描述（原书第2版）.pdf",
-    "Algorithm",
-    "新建文件夹/算法学习笔记.md",
-    "新建文件夹/数据结构与算法分析：C语言描述（原书第2版）.pdf",
-    "新建文件夹",
-    "Programming/Miscell",
-    "Programming/新建文件夹",
-    "未命名",
-    "RecycleBin~aa3e.ffs_tmp",
+    "Programming/C/OOP in C.md",
+    "Programming/SDL/SDL入门.md",
+    "RecycleBin~7b33.ffs_tmp",
     "sync.ffs_lock",
+    "Programming/python/python学习笔记.md",
+    "Programming/SDL/My SDL Storage.md",
+    "Programming/C/CPL进阶-翁恺.md",
+    "Programming/Miscell/面向对象编程思想.md",
+    "RecycleBin~b836.ffs_tmp/Programming/python/python学习笔记.md",
+    "RecycleBin~b836.ffs_tmp/Programming/python",
+    "RecycleBin~b836.ffs_tmp/Programming",
+    "RecycleBin~b836.ffs_tmp",
+    "RecycleBin~92b2.ffs_tmp/Programming/C++/C++学习笔记.md",
+    "RecycleBin~92b2.ffs_tmp/Programming/C++",
+    "RecycleBin~92b2.ffs_tmp/Programming",
+    "RecycleBin~92b2.ffs_tmp",
+    "Programming/数据结构与算法分析：C语言描述（原书第2版）.pdf",
+    "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
+    "00 Resource/template/日记模板.md",
+    "Algorithm/算法学习笔记.md",
+    "Programming/python/爬虫基础知识.md",
+    "Programming/Miscell/正则表达式.md",
+    "新建文件夹/算法学习笔记.md",
     "Programming/Linux/Linux学习心得.md",
-    "Programming/C/C Primer Plus 第六版 [带书签].pdf",
     "Programming/算法学习笔记.md",
     "00 NewFile/2024-02-14.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
-    "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
     "README.md",
     "未命名.canvas"
   ]

@@ -1,6 +1,8 @@
 #程序设计 #python #基础教程 
 # Python 学习笔记
 
+一种[[../Miscell/解释型语言与编译型语言#解释型语言|解释型语言]]
+
 > Created by lxx11451 on 2024/1/18
 >
 > python基础学习
@@ -949,7 +951,7 @@ def max_two_numbers(num_list):
 
 
 
-## 七. 面向对象编程
+## 七. [[../Miscell/面向对象编程思想|面向对象编程]]
 
  三大支柱: 封装、继承和多态
 

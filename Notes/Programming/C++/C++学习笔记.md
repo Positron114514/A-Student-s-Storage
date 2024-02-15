@@ -7,7 +7,7 @@
 
 ## 一. C++ 基础速通
 
-```python
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -568,6 +568,8 @@ namespace 使用规范:
 
 
 ## 四. 对象和类
+
+从这里开始, 为[[../Miscell/面向对象编程思想|面向对象编程]]的内容
 
 class
 

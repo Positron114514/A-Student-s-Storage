@@ -1,4 +1,8 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "obsidian-outliner",
+  "dataview",
+  "obsidian-pandoc",
+  "obsidian-style-settings"
 ]
