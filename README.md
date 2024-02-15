@@ -30,6 +30,7 @@ The storage now includes:
 | Name         | Author         | Language      | Msg                                       |
 | ------------ | -------------- | ------------- | ----------------------------------------- |
 | WHACK A MINE | Positron114514 | C (With SDL2) | The final project of the CPL class in NJU |
+| My_objects   | Positron114514 | C++           | My personal C++ Objects                   |
 
 
 
