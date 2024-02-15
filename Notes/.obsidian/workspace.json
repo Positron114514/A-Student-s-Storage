@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+                "file": "Programming/C++/C++学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+                "file": "Programming/C++/C++学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
+                "file": "Programming/C++/C++学习笔记.md"
               }
             }
           },
@@ -182,17 +182,23 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "153cb356b99cc11c",
+  "active": "1ec347b1a88e149f",
   "lastOpenFiles": [
-    "Programming/C++/C++学习笔记.md",
+    "sync.ffs_lock",
     "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "Programming/C++/C++学习笔记.md",
+    "Programming/C/OOP in C.md",
+    "RecycleBin~4ae1.ffs_tmp/Programming/python/python学习笔记.md",
+    "RecycleBin~4ae1.ffs_tmp/Programming/C/OOP in C.md",
+    "RecycleBin~4ae1.ffs_tmp/Programming/python",
+    "RecycleBin~4ae1.ffs_tmp/Programming/C",
+    "RecycleBin~4ae1.ffs_tmp/Programming",
+    "RecycleBin~4ae1.ffs_tmp",
     "00 Diary/2024-02-14.md",
     "Programming/Miscell/解释型语言与编译型语言.md",
     "Programming/Linux/Linux常用命令汇总.md",
-    "Programming/C/OOP in C.md",
     "Programming/SDL/SDL入门.md",
     "RecycleBin~7b33.ffs_tmp",
-    "sync.ffs_lock",
     "Programming/python/python学习笔记.md",
     "Programming/SDL/My SDL Storage.md",
     "Programming/C/CPL进阶-翁恺.md",
@@ -202,10 +208,6 @@
     "RecycleBin~b836.ffs_tmp/Programming",
     "RecycleBin~b836.ffs_tmp",
     "RecycleBin~92b2.ffs_tmp/Programming/C++/C++学习笔记.md",
-    "RecycleBin~92b2.ffs_tmp/Programming/C++",
-    "RecycleBin~92b2.ffs_tmp/Programming",
-    "RecycleBin~92b2.ffs_tmp",
-    "Programming/数据结构与算法分析：C语言描述（原书第2版）.pdf",
     "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
     "00 Resource/template/日记模板.md",
     "Algorithm/算法学习笔记.md",

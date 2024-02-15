@@ -1,8 +1,6 @@
 #程序设计 #python #基础教程 
 # Python 学习笔记
 
-一种[[../Miscell/解释型语言与编译型语言#解释型语言|解释型语言]]
-
 > Created by lxx11451 on 2024/1/18
 >
 > python基础学习
