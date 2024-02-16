@@ -1239,6 +1239,12 @@ Vector operator*(double num, const Vector& v) {
 
 std::ostream& operator<<(std::ostream& os, const Vector& v) {
     using std::endl;
+    using std::ios_base;
+    using std::streamsize;
+    // 更改精度
+    ios_base::fmtflags orig_flag =
+        os.setf(ios_base::fixed, ios_base::floatfield);
+    streamsize orig = os.precision(5);
 
     if (v.mode == v.RECT) {
         os << v.x << " " << v.y << endl;
@@ -1246,12 +1252,119 @@ std::ostream& operator<<(std::ostream& os, const Vector& v) {
         os << v.mag << " " << v.ang << endl;
     }
 
+    os.precision(orig);
     return os;
 }
 
 }  // namespace VECTOR
 
 ```
+
+### 5.4 类的自动转换和强制类型转换
+
+#### 5.4.1 其他类型到类的类型的类型转换
+
+有一个参数的构造函数可以用作转换函数:
+
+```cpp
+Stack::Stack(int size);
+
+Stack s = 100;
+```
+
+有两个参数: 如果只有一个参数没有默认值也可以
+
+可以使用关键字 `explicit` 关闭自动类型转换:
+
+```cpp
+explicit Stack(int size);
+```
+
+此时仍可以使用强制类型转换将对应变量转换为对象:
+
+```cpp
+Stack s = (Stack) 100;
+```
+
+#### 5.4.2 类的类型到其它类型的类型转换
+
+需要定义类方法 转换函数
+
+```cpp
+operator TypeName();
+```
+
+- 转换函数不能有参数
+- 转换函数不能指定返回类型
+- 转换函数必须是类方法
+
+exmaple:
+
+```cpp
+class Stack{
+	private:
+
+	public:
+	operator int() const;
+}
+
+Stack::operator int() const{
+	return size;
+}
+```
+
+弊端: 会在不希望进行类型转换时, 也可能进行转换
+
+- 解决方法1: C++11中, 可以将explicit用于转换函数, 使其只接受强制类型转换:
+
+```cpp
+explicit operator int() const;
+```
+
+- 解决方法2: 使用类方法替换转换函数, 该方法返回对应类型的值:
+
+```cpp
+int Stack_to_int(){return size;}
+
+Stack s;
+int target = s.Stack_to_int();
+```
+
+#### 5.4.3 转换函数和友元函数
+
+```cpp
+Stack operator+(Stack &s) const;
+friend Stack operator+(Stack &t, Stack &s) const;
+
+Stack s{100};
+int size = 10;
+
+Stack t = s + size; // ok
+t = size + s; // only friend function can do this
+```
+
+如果定义了构造函数, 则上述代码会引起错误 (不知道往哪个方向转换)
+
+实现带有类型转换的加法的方法:
+
+1. 使用友元函数
+	1. 优点: 程序简短, 不易出错
+	2. 缺点: 需要调用转换构造函数, 运行速度慢
+2. 直接重载double类型的运算符:
+	1. 优点: 运行速度快
+	2. 缺点: 增加工作量
+
+```cpp
+Stack operator+(double num) const;
+friend Stack operator+(Stack &s, double num) const;
+```
+
+
+## 六. 类和动态内存分配
+
+
+
+
 
 
 ## Pages that should be reread
