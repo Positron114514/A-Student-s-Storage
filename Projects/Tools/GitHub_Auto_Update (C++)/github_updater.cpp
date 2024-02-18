@@ -7,14 +7,15 @@ void command(char* msg) {
         system("pause");
         exit(EXIT_FAILURE);
     }
+    std::cout << std::endl;
 }
 
 int main() {
     using namespace std;
-    char msg[100];
+    char msg[101];
 
     cout << "Enter message:";
-    cin >> msg;
+    cin.getline(msg, 100);
 
     cout << "Working...\n";
 

@@ -14,7 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
               }
             }
           },
@@ -179,10 +179,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1ec347b1a88e149f",
+  "active": "153cb356b99cc11c",
   "lastOpenFiles": [
-    "Algorithm/Leetcode101算法笔记.md",
+    "Programming/C++/C++学习笔记.md",
     "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+    "Algorithm/Leetcode101算法笔记.md",
     "sync.ffs_lock",
     "sync.ffs_db.40bf.ffs_tmp",
     "sync.ffs_db.afc2.ffs_tmp",
@@ -198,7 +199,6 @@
     "00 Resource/res/vi-vim-cheat-sheet-sch1.gif.crdownload",
     "sync.ffs_db.7a8a.ffs_tmp",
     "00 Diary/2024-02-17.md",
-    "Programming/C++/C++学习笔记.md",
     "Programming/C/OOP in C.md",
     "Programming/Miscell/面向对象编程思想.md",
     "Programming/python/爬虫基础知识.md",
