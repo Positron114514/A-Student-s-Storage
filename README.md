@@ -46,7 +46,8 @@ The storage now includes:
 
 **Tools:**
 
-| Name              | Author         | Language | Msg                       | Time      |
-| ----------------- | -------------- | -------- | ------------------------- | --------- |
-| Crawler(Python)   | Positron114514 | Python   | Mainly wrote by pyppeteer | 2024/1/29 |
-| Markdown_Splitter | Positron114514 | C++      | Seperate .md file by h1   | 2024/2/11 |
+| Name                | Author         | Language | Msg                          | Time      |
+| ------------------- | -------------- | -------- | ---------------------------- | --------- |
+| Crawler(Python)     | Positron114514 | Python   | Mainly wrote by pyppeteer    | 2024/1/29 |
+| Markdown_Splitter   | Positron114514 | C++      | Seperate .md file by h1      | 2024/2/11 |
+| GitHub_Auto_Updater | Positron114514 | C++      | Auto update your git storage | 2024/2/18 |
