@@ -29,15 +29,24 @@
             "id": "1ec347b1a88e149f",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "88f121b4b1293225",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Diary/2024-02-16.md",
+                "file": "00 NewFile/一名苦逼智软学生的Debug人生.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Diary/2024-02-16.md",
+                "file": "00 NewFile/一名苦逼智软学生的Debug人生.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Diary/2024-02-16.md",
+                "file": "00 NewFile/一名苦逼智软学生的Debug人生.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Diary/2024-02-16.md"
+                "file": "00 NewFile/一名苦逼智软学生的Debug人生.md"
               }
             }
           },
@@ -183,45 +192,46 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1ec347b1a88e149f",
+  "active": "88f121b4b1293225",
   "lastOpenFiles": [
-    "00 Resource/template/日记模板.md",
-    "00 Diary/2024-02-16.md",
     "sync.ffs_lock",
-    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "sync.ffs_db.cab6.ffs_tmp",
+    "sync.ffs_db.2ef9.ffs_tmp",
+    "sync.ffs_db.9499.ffs_tmp",
+    "sync.ffs_db.c207.ffs_tmp",
+    "sync.ffs_db.4b43.ffs_tmp",
+    "sync.ffs_db.2ff7.ffs_tmp",
+    "sync.ffs_db.b208.ffs_tmp",
+    "sync.ffs_db.a558.ffs_tmp",
+    "sync.ffs_db.d75a.ffs_tmp",
+    "sync.ffs_db.14f8.ffs_tmp",
+    "00 NewFile/一名苦逼智软学生的Debug人生.md",
+    "00 Diary/2024-02-17.md",
+    "00 Diary/2024-02-16.md",
     "Programming/C++/C++学习笔记.md",
     "Programming/C/OOP in C.md",
-    "RecycleBin~6a93.ffs_tmp",
     "Programming/Miscell/面向对象编程思想.md",
     "Programming/Linux/Linux常用命令汇总.md",
     "Programming/python/爬虫基础知识.md",
-    "sync.ffs_db.5fe0.ffs_tmp",
     "RecycleBin~4ae1.ffs_tmp/Programming/python/python学习笔记.md",
     "RecycleBin~4ae1.ffs_tmp/Programming/C/OOP in C.md",
-    "RecycleBin~4ae1.ffs_tmp/Programming/python",
-    "RecycleBin~4ae1.ffs_tmp/Programming/C",
-    "RecycleBin~4ae1.ffs_tmp/Programming",
-    "RecycleBin~4ae1.ffs_tmp",
     "00 Diary/2024-02-14.md",
     "Programming/Miscell/解释型语言与编译型语言.md",
     "Programming/SDL/SDL入门.md",
-    "RecycleBin~7b33.ffs_tmp",
     "Programming/python/python学习笔记.md",
     "Programming/SDL/My SDL Storage.md",
     "Programming/C/CPL进阶-翁恺.md",
     "RecycleBin~b836.ffs_tmp/Programming/python/python学习笔记.md",
-    "RecycleBin~b836.ffs_tmp/Programming/python",
     "RecycleBin~92b2.ffs_tmp/Programming/C++/C++学习笔记.md",
     "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
+    "00 Resource/template/日记模板.md",
     "Algorithm/算法学习笔记.md",
     "Programming/Miscell/正则表达式.md",
     "新建文件夹/算法学习笔记.md",
     "Programming/Linux/Linux学习心得.md",
     "Programming/算法学习笔记.md",
-    "00 NewFile/2024-02-14.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
-    "README.md",
     "未命名.canvas"
   ]
 }
