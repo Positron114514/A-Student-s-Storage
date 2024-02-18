@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -100,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+              }
             }
           },
           {
@@ -178,10 +181,10 @@
   },
   "active": "1ec347b1a88e149f",
   "lastOpenFiles": [
-    "00 NewFile/Leetcode101算法笔记.md",
+    "Algorithm/Leetcode101算法笔记.md",
+    "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "sync.ffs_lock",
     "sync.ffs_db.40bf.ffs_tmp",
-    "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "sync.ffs_db.afc2.ffs_tmp",
     "RecycleBin~e950.ffs_tmp",
     "sync.ffs_db.fda0.ffs_tmp",
