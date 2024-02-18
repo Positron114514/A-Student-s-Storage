@@ -79,7 +79,7 @@ int main() {
     }
 
     while (input_file.fail() != true) {
-        name = (string)(buffer + 1) + ".md";
+        name = output_path + (string)(buffer + 1) + ".md";
         output_file.open(name);
 
         int title;
