@@ -246,3 +246,96 @@ class Solution {
     inline int get_num(char a) { return a - 'a'; }
 };
 ```
+
+
+### T406 Queue Reconstruction by Heigh
+
+C++:
+
+```cpp
+class Solution {
+public:
+    /*
+     * reconstructQueue 函数用于重建队列。
+     * 输入参数：
+     * - people: 一个二维向量，其中每个元素都是一个长度为2的向量，表示一个人的信息，第一个元素是身高，第二个元素是前面比他高的人数。
+     * 返回值：
+     * - 返回一个二维向量，表示按照题目要求排列的队列。
+     */
+    vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
+        // 根据身高和前面比他高的人数对人员进行排序
+        sort(people.begin(), people.end(), [](vector<int>& a, vector<int>& b) {
+            return a[0] == b[0] ? a[1] < b[1] : a[0] > b[0];
+        });
+
+        int len = people.size(); // 人员总数
+
+        vector<vector<int>> ret; // 用于存储重建后的队列
+        for (int i = 0; i < len; i++) {
+            // 在 ret 中按照每个人的前面比他高的人数找到合适的位置插入当前人员信息
+            ret.insert(ret.begin() + people[i][1], people[i]);
+        }
+
+        return ret; // 返回重建的队列
+    }
+};
+
+```
+
+C:
+
+```c
+/*
+ * cmp 函数是用作 qsort 函数的比较函数，用于对人员数组进行排序。
+ * 这个比较函数按照两个标准来排序：
+ * 1. 如果两个人的身高相同，则根据他们的位置信息（前面比他们高的人数）降序排列；
+ * 2. 如果两个人的身高不同，则按照身高升序排列。
+ */
+int cmp(const void* _a, const void* _b) {
+    int *a = *(int**)_a, *b = *(int**)_b;
+    return a[0] == b[0] ? b[1] - a[1] : a[0] - b[0];
+}
+
+/*
+ * reconstructQueue 函数用于重建队列。
+ * 输入参数：
+ * - people: 人员数组，其中每个人的信息表示为一个长度为2的数组，第一个元素是身高，第二个元素是位置信息（前面比他们高的人数）。
+ * - peopleSize: 人员数组的长度。
+ * - peopleColSize: 人员数组的列数，这里是固定的为2。
+ * 输出参数：
+ * - returnSize: 返回的二维数组的行数。
+ * - returnColumnSizes: 返回的二维数组的每一行的列数。
+ * 返回值：
+ * - 返回一个二维数组，表示按照题目要求排列的队列。
+ */
+int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* returnSize, int** returnColumnSizes) {
+    // 根据身高和位置信息对人员数组进行排序
+    qsort(people, peopleSize, sizeof(int*), cmp);
+    // 分配返回的二维数组的空间
+    int** ans = malloc(sizeof(int*) * peopleSize);
+    // 设置返回的二维数组的行数
+    *returnSize = peopleSize;
+    // 分配并初始化返回的二维数组的每一行的列数
+    *returnColumnSizes = malloc(sizeof(int) * peopleSize);
+    memset(*returnColumnSizes, 0, sizeof(int) * peopleSize);
+    // 遍历排序后的人员数组
+    for (int i = 0; i < peopleSize; ++i) {
+        int spaces = people[i][1] + 1;
+        // 在返回的二维数组中找到合适的位置插入当前人员
+        for (int j = 0; j < peopleSize; ++j) {
+            if ((*returnColumnSizes)[j] == 0) {
+                spaces--;
+                if (!spaces) {
+                    (*returnColumnSizes)[j] = 2;
+                    ans[j] = malloc(sizeof(int) * 2);
+                    ans[j][0] = people[i][0], ans[j][1] = people[i][1];
+                    break;
+                }
+            }
+        }
+    }
+    // 返回重建的队列
+    return ans;
+}
+
+```

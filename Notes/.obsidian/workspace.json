@@ -14,7 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
               }
             }
           }
@@ -29,8 +29,12 @@
             "id": "1ec347b1a88e149f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/Leetcode101算法笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -83,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -99,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+                "file": "Algorithm/Leetcode101算法笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+                "file": "Algorithm/Leetcode101算法笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -139,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C++/C++ Primer plus第6版（中文版）.pdf"
+                "file": "Algorithm/Leetcode101算法笔记.md"
               }
             }
           },
@@ -179,17 +184,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "153cb356b99cc11c",
+  "active": "1ec347b1a88e149f",
   "lastOpenFiles": [
-    "Programming/C++/C++学习笔记.md",
+    "sync.ffs_lock",
+    "RecycleBin~afa8.ffs_tmp",
     "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "Algorithm/Leetcode101算法笔记.md",
-    "sync.ffs_lock",
+    "Algorithm/算法学习笔记.md",
+    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
+    "00 Diary/2024-02-18.md",
+    "Programming/C++/C++学习笔记.md",
     "sync.ffs_db.40bf.ffs_tmp",
     "sync.ffs_db.afc2.ffs_tmp",
     "RecycleBin~e950.ffs_tmp",
     "sync.ffs_db.fda0.ffs_tmp",
-    "Programming/C++/C++ Primer plus第6版（中文版）.pdf",
     "00 Diary/2024-02-16.md",
     "Programming/Miscell/一名苦逼智软学生的Debug人生.md",
     "Programming/Miscell/Vim快捷键大全.md",
@@ -214,9 +222,7 @@
     "RecycleBin~92b2.ffs_tmp/Programming/C++/C++学习笔记.md",
     "Excalidraw/Drawing 2024-02-13 09.41.58.excalidraw.md",
     "00 Resource/template/日记模板.md",
-    "Algorithm/算法学习笔记.md",
     "Programming/Miscell/正则表达式.md",
-    "新建文件夹/算法学习笔记.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
     "未命名.canvas"
