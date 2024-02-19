@@ -450,3 +450,14 @@ class Solution {
 ```
 
 
+## 练习
+
+我***
+
+![[../00 Resource/res/Pasted image 20240219224047.png]]
+
+>[!Abstract] sb玩意
+
+
+# 三. 二分查找
+
