@@ -248,7 +248,7 @@ class Solution {
 ```
 
 
-### T406 Queue Reconstruction by Heigh
+### T406 Queue Reconstruction by Height
 
 C++:
 
@@ -337,5 +337,116 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
     // 返回重建的队列
     return ans;
 }
+```
+
+
+### T665 Non-decreasing Array 
+
+C++
+
+```cpp
+class Solution {
+public:
+    /*
+     * checkPossibility 函数用于检查数组是否可以通过修改一个元素变成非递减数组。
+     * 输入参数：
+     * - nums: 一个整数向量，表示待检查的数组。
+     * 返回值：
+     * - 返回一个布尔值，表示是否可以通过修改一个元素变成非递减数组。
+     */
+    bool checkPossibility(vector<int>& nums) {
+        if(nums.size() <= 2) return true; // 如果数组长度小于等于2，则一定可以通过修改一个元素变成非递减数组
+        bool changed = false; // 用于标记是否已经修改过一个元素
+
+        for(int i = 0; i < nums.size() - 1; i++){
+            if(nums[i] > nums[i + 1]){ // 如果发现递减的情况
+                if(changed) return false; // 如果已经修改过一个元素，则返回 false
+                changed = true; // 标记为已经修改过一个元素
+                if(i == 0 || nums[i - 1] <= nums[i + 1]){ // 如果当前元素是第一个元素，或者当前元素的前一个元素小于等于后一个元素
+                    nums[i] = nums[i + 1]; // 将当前元素的值修改为后一个元素的值
+                }else{
+                    nums[i + 1] = nums[i];  // 否则，将后一个元素的值修改为当前元素的值
+                }
+            }
+        }
+
+        return true; // 如果能够完成循环，则说明可以通过修改一个元素变成非递减数组，返回 true
+    }
+};
 
 ```
+
+
+# 二. 双指针
+
+ 双指针主要用于遍历数组，两个指针指向不同的元素，从而协同完成任务。也可以延伸到多 个数组的多个指针。 
+ 
+ - 若两个指针指向同一数组，遍历方向相同且不会相交，则也称为滑动窗口（两个指针包围的 区域即为当前的窗口），经常用于区间搜索。 
+ - 若两个指针指向同一数组，但是遍历方向相反，则可以用来进行搜索，待搜索的数组往往是 排好序的
+
+
+## 2.1 快慢指针
+
+> 链表寻找环路
+
+对于链表找环路的问题，有一个通用的解法——快慢指针（[[算法合集/Floyd判圈法|Floyd判圈法]]）。给定两个指针， 分别命名为 slow 和 fast，起始位置在链表的开头。每次 fast 前进两步，slow 前进一步。如果 fast 可以走到尽头，那么说明没有环路；如果 fast 可以无限走下去，那么说明一定有环路，且一定存 在一个时刻 slow 和 fast 相遇。当 slow 和 fast 第一次相遇时，我们将 fast 重新移动到链表开头，并 让 slow 和 fast 每次都前进一步。当 slow 和 fast 第二次相遇时，相遇的节点即为环路的开始点。
+
+```c++
+class Solution { 
+	public: 
+		ListNode *detectCycle(ListNode *head) { 
+			ListNode *slow = head, *fast = head; 
+			do{ 
+				if(!fast || !fast ->next) return NULL; 
+				slow = slow -> next; 
+				fast = fast -> next ->next; 
+			}while(slow != fast); 
+			
+			fast = head; 
+			while(fast != slow){ 
+				fast = fast ->next; 
+				slow = slow -> next; 
+			} 
+			return fast; 
+		} 
+};
+```
+
+
+## 2.2 滑动窗口
+
+### T76 Minimum Window Substring (Hard)
+
+```c++
+class Solution {
+   public:
+    string minWindow(string s, string t) {
+        unordered_map<char, int> object;
+        for (const char ch : t) {
+            object[ch]++;
+        }
+        int min_len = s.size() + 1;
+        int min_pointer = 0;
+        int cnt = 0;
+        int j = 0;
+        for (int i = 0; i < s.size(); ++i) {
+            if (object.find(s[i]) != object.end() && --object[s[i]] >= 0) {
+                ++cnt;
+            }
+            while (cnt == t.size()) {
+                if (i - j + 1 < min_len) {
+                    min_len = i - j + 1;
+                    min_pointer = j;
+                }
+                if (object.find(s[j]) != object.end() && ++object[s[j]] > 0) {
+                    --cnt;
+                }
+                ++j;
+            }
+        }
+        return min_len > s.size() ? "" : s.substr(min_pointer, min_len);
+    }
+};
+```
+
+
