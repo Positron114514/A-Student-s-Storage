@@ -9,11 +9,13 @@
         "dimension": 53.72413793103449,
         "children": [
           {
-            "id": "153cb356b99cc11c",
+            "id": "da8b79556dee4b0a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+              }
             }
           }
         ]
@@ -48,12 +50,14 @@
             }
           },
           {
-            "id": "8e8f10447b4164aa",
+            "id": "1388b20ea38bb1c5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Floyd Circle.md"
+                "file": "Algorithm/算法合集/牛顿迭代法.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -124,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+              }
             }
           },
           {
@@ -200,14 +208,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "153cb356b99cc11c",
+  "active": "da8b79556dee4b0a",
   "lastOpenFiles": [
+    "Algorithm/Leetcode101算法笔记.md",
+    "Algorithm/算法合集/牛顿迭代法.md",
+    "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+    "Algorithm/算法合集/Floyd判圈法.md",
+    "Excalidraw/Floyd Circle.md",
+    "Excalidraw/Floyd Circle.png",
     "sync.ffs_lock",
     "00 Diary/2024-02-19.md",
-    "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
     "sync.ffs_db.70ba.ffs_tmp",
     "sync.ffs_db.7b85.ffs_tmp",
-    "Algorithm/Leetcode101算法笔记.md",
     "sync.ffs_db.4b04.ffs_tmp",
     "sync.ffs_db.cb9a.ffs_tmp",
     "sync.ffs_db.ec26.ffs_tmp",
@@ -215,8 +227,6 @@
     "00 Resource/res/Pasted image 20240219224047.png",
     "sync.ffs_db.b5bc.ffs_tmp",
     "sync.ffs_db.82f1.ffs_tmp",
-    "Algorithm/算法合集/Floyd判圈法.md",
-    "Excalidraw/Floyd Circle.md",
     "Algorithm/算法学习笔记.md",
     "00 Diary/2024-02-18.md",
     "Programming/C++/C++学习笔记.md",
@@ -238,7 +248,6 @@
     "Programming/SDL/My SDL Storage.md",
     "Programming/C/CPL进阶-翁恺.md",
     "RecycleBin~b836.ffs_tmp/Programming/python/python学习笔记.md",
-    "RecycleBin~92b2.ffs_tmp/Programming/C++/C++学习笔记.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
     "未命名.canvas"
