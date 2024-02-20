@@ -461,3 +461,55 @@ class Solution {
 
 # 三. 二分查找
 
+注意别写死循环了
+
+写法1:
+
+```c
+while(l <= r){
+	int mid = (l + r) / 2;
+	if(mid < target){
+		l = mid + 1;
+	}else if(mid > target){
+		r = mid - 1;
+	}else{
+		return true;
+	}
+}
+```
+
+## T81 旋转数组
+
+```c++
+class Solution {
+   public:
+    bool search(vector<int>& nums, int target) {
+        int l = 0, r = nums.size() - 1;
+
+        int mid;
+        while (l <= r) {
+            mid = (l + r) / 2;
+            if (nums[mid] == target || nums[l] == target || nums[r] == target)
+                return 1;
+            else if (nums[mid] == nums[l]) {
+                ++l;
+            } else if (nums[mid] <= nums[r]) {  // 头等于中间, 则中间必定等于尾
+                if (nums[mid] < target && nums[r] > target) {
+                    l = mid + 1;
+                } else {
+                    r = mid - 1;
+                }
+            } else {
+                if (nums[mid] > target && nums[l] < target) {
+                    r = mid - 1;
+                } else {
+                    l = mid + 1;
+                }
+            }
+        }
+
+        return 0;
+    }
+};
+```
+
