@@ -4,37 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "373afe295633359c",
-        "type": "tabs",
-        "dimension": 53.72413793103449,
-        "children": [
-          {
-            "id": "da8b79556dee4b0a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
-              }
-            }
-          },
-          {
-            "id": "d7f36f5ce0a72fcb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Tree.md"
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
         "id": "382117d9f4c6d698",
         "type": "tabs",
-        "dimension": 46.275862068965516,
         "children": [
           {
             "id": "1ec347b1a88e149f",
@@ -42,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/算法学习笔记.md",
+                "file": "Algorithm/Leetcode101算法笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,14 +25,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 NewFile/树.md",
+                "file": "Algorithm/数据结构合集/树.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b9066ea77e7310db",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Tree_b.md"
+              }
+            }
+          },
+          {
+            "id": "d7f54f6054dfa371",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -127,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +132,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -166,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/Tree.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,22 +192,31 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d7f36f5ce0a72fcb",
+  "active": "d7f54f6054dfa371",
   "lastOpenFiles": [
+    "Programming/Miscell/一名苦逼智软学生的Debug人生.md",
+    "sync.ffs_db.a6a6.ffs_tmp",
     "sync.ffs_lock",
-    "00 NewFile/树.md",
-    "sync.ffs_db.fe35.ffs_tmp",
-    "Excalidraw/Tree.md",
-    "sync.ffs_db.4f89.ffs_tmp",
-    "sync.ffs_db.fbdb.ffs_tmp",
-    "sync.ffs_db.61ed.ffs_tmp",
-    "sync.ffs_db.e478.ffs_tmp",
-    "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
-    "Algorithm/数据结构合集",
-    "Algorithm/新建文件夹",
-    "Algorithm/算法学习笔记.md",
-    "未命名",
+    "Algorithm/数据结构合集/树.md",
+    "00 Resource/res/vi-vim-cheat-sheet-sch1.gif",
+    "00 Resource/res/total_2_tree.png",
+    "00 Resource/res/total_2_tree.png.crdownload",
+    "00 Resource/res/5_types_of_2_tree.png",
+    "00 Resource/res/5_types_of_2_tree.png.crdownload",
+    "sync.ffs_db.111b.ffs_tmp",
+    "00 Resource/res/tree_brother_child.png",
+    "00 Resource/res/tree_brother_child.png.crdownload",
+    "00 NewFile/202402212304.md",
+    "Excalidraw/Tree_b.md",
+    "sync.ffs_db.d113.ffs_tmp",
+    "00 Resource/res/tree_child.png",
+    "00 Resource/res/tree_child.png.crdownload",
+    "sync.ffs_db.c3a1.ffs_tmp",
     "Algorithm/Leetcode101算法笔记.md",
+    "sync.ffs_db.0ceb.ffs_tmp",
+    "00 NewFile/未命名.md",
+    "Algorithm/算法学习笔记.md",
+    "Excalidraw/Tree.md",
     "Algorithm/算法合集/常用排序算法合集.md",
     "Algorithm/算法合集/牛顿迭代法.md",
     "00 Resource/res/Newton.jpg",
@@ -234,10 +228,8 @@
     "00 Diary/2024-02-18.md",
     "Programming/C++/C++学习笔记.md",
     "00 Diary/2024-02-16.md",
-    "Programming/Miscell/一名苦逼智软学生的Debug人生.md",
     "Programming/Miscell/Vim快捷键大全.md",
     "Programming/Linux/Linux常用命令汇总.md",
-    "00 Resource/res/vi-vim-cheat-sheet-sch1.gif",
     "00 Diary/2024-02-17.md",
     "Programming/C/OOP in C.md",
     "Programming/Miscell/面向对象编程思想.md",
@@ -245,9 +237,6 @@
     "RecycleBin~4ae1.ffs_tmp/Programming/python/python学习笔记.md",
     "RecycleBin~4ae1.ffs_tmp/Programming/C/OOP in C.md",
     "00 Diary/2024-02-14.md",
-    "Programming/Miscell/解释型语言与编译型语言.md",
-    "Programming/SDL/SDL入门.md",
-    "Programming/python/python学习笔记.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
     "未命名.canvas"
