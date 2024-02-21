@@ -513,3 +513,57 @@ class Solution {
 };
 ```
 
+
+## 练习
+
+### [T540 数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array/)
+
+C++
+
+```cpp
+class Solution {
+   public:
+    // 思路: 取中间, 算l和mid间距离的奇偶性 && mid和r间的奇偶性,
+    // 哪个是奇数就在哪边
+    int singleNonDuplicate(vector<int>& nums) {
+        int l = 0, r = nums.size() - 1;
+
+        int mid = 0;
+        while (l <= r) {
+            mid = (l + r) / 2;
+            if ((mid == 0 || nums[mid - 1] != nums[mid]) &&
+                (mid == nums.size() - 1 || nums[mid + 1] != nums[mid])) {
+                return nums[mid];
+            } else if (mid == 0 || nums[mid - 1] != nums[mid]) {
+                if ((mid - l) % 2 == 1) {
+                    r = mid - 1;
+                } else {
+                    l = mid + 2;
+                }
+            } else {
+                if ((r - mid) % 2 == 1) {
+                    l = mid + 1;
+                } else {
+                    r = mid - 2;
+                }
+            }
+        }
+
+        return r;
+    }
+};
+```
+
+
+# 四. 排序算法
+
+C++: `std::sort`
+C: `qsort`
+
+## 4.1 常用排序算法
+
+![[算法合集/常用排序算法合集|常用排序算法合集]]
+
+## 快速选择算法
+
+使用快速排序的算法, 找到第k大的数
