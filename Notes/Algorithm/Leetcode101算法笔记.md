@@ -567,3 +567,29 @@ C: `qsort`
 ## 快速选择算法
 
 使用快速排序的算法, 找到第k大的数
+
+
+## 练习
+
+### 荷兰国旗问题
+
+```cpp
+class Solution {
+   public:
+    void sortColors(vector<int>& nums) {
+        int _0 = 0, _1 = 0, _2 = 0;
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == 0) {
+                nums[_2++] = 2;
+                nums[_1++] = 1;
+                nums[_0++] = 0;
+            } else if (nums[i] == 1) {
+                nums[_2++] = 2;
+                nums[_1++] = 1;
+            } else {
+                nums[_2++] = 2;
+            }
+        }
+    }
+};
+```

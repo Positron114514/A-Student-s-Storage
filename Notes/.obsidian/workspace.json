@@ -17,8 +17,19 @@
                 "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
               }
             }
+          },
+          {
+            "id": "d7f36f5ce0a72fcb",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Tree.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "382117d9f4c6d698",
@@ -31,49 +42,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Leetcode101算法笔记.md",
+                "file": "Algorithm/算法学习笔记.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2bc388d33c82a3ba",
+            "id": "9d864498cc34fced",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/算法合集/Floyd判圈法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1388b20ea38bb1c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/算法合集/牛顿迭代法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5549dadb4180e8b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithm/算法合集/常用排序算法合集.md",
+                "file": "00 NewFile/树.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -140,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+                "file": "Excalidraw/Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+                "file": "Excalidraw/Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf"
+                "file": "Excalidraw/Tree.md"
               }
             }
           },
@@ -220,21 +207,23 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "da8b79556dee4b0a",
+  "active": "d7f36f5ce0a72fcb",
   "lastOpenFiles": [
-    "sync.ffs_db.3d40.ffs_tmp",
     "sync.ffs_lock",
-    "Algorithm/Leetcode101算法笔记.md",
-    "sync.ffs_db.4fe6.ffs_tmp",
+    "00 NewFile/树.md",
+    "sync.ffs_db.fe35.ffs_tmp",
+    "Excalidraw/Tree.md",
+    "sync.ffs_db.4f89.ffs_tmp",
+    "sync.ffs_db.fbdb.ffs_tmp",
+    "sync.ffs_db.61ed.ffs_tmp",
+    "sync.ffs_db.e478.ffs_tmp",
     "Programming/leetcode/LeetCode 101 - A LeetCode Grinding Guide (C++ Version).pdf",
+    "Algorithm/数据结构合集",
+    "Algorithm/新建文件夹",
+    "Algorithm/算法学习笔记.md",
+    "未命名",
+    "Algorithm/Leetcode101算法笔记.md",
     "Algorithm/算法合集/常用排序算法合集.md",
-    "sync.ffs_db.0f47.ffs_tmp",
-    "sync.ffs_db.ad28.ffs_tmp",
-    "sync.ffs_db.18bb.ffs_tmp",
-    "sync.ffs_db.3782.ffs_tmp",
-    "sync.ffs_db.3413.ffs_tmp",
-    "sync.ffs_db.dc84.ffs_tmp",
-    "sync.ffs_db.9185.ffs_tmp",
     "Algorithm/算法合集/牛顿迭代法.md",
     "00 Resource/res/Newton.jpg",
     "Algorithm/算法合集/Floyd判圈法.md",
@@ -242,7 +231,6 @@
     "Excalidraw/Floyd Circle.png",
     "00 Diary/2024-02-19.md",
     "00 Resource/res/Pasted image 20240219224047.png",
-    "Algorithm/算法学习笔记.md",
     "00 Diary/2024-02-18.md",
     "Programming/C++/C++学习笔记.md",
     "00 Diary/2024-02-16.md",
@@ -260,8 +248,6 @@
     "Programming/Miscell/解释型语言与编译型语言.md",
     "Programming/SDL/SDL入门.md",
     "Programming/python/python学习笔记.md",
-    "Programming/SDL/My SDL Storage.md",
-    "Programming/C/CPL进阶-翁恺.md",
     "Programming/书籍推荐.jpg",
     "00 Resource/res/6fdace26d33e46fea16f17f78369bdd1.png",
     "未命名.canvas"
