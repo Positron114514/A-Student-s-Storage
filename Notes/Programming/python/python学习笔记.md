@@ -478,6 +478,57 @@ if __name__ == '__main__':
 ```
 
 
+### 3. Lambda Function
+
+a lambda function is a function defined in a function like this:
+
+```python
+your_function_name = lambda inputs: output
+```
+
+example:
+
+```python
+a = 0
+b = 114514
+sum = lambda a, b: a + b
+print(sum(a, b))
+```
+
+
+### 4. Multiple function arguments
+
+you can declare a function with multiple variables like this:
+
+```python
+def function(a, b, *threrst)
+```
+
+```python
+def multiple(*therest):  
+    ret = 1  
+    for i in therest:  
+        ret *= i  
+    return ret  
+  
+def main():  
+    print(multiple(1, 2, 3, 4, 5, 6))  
+  
+  
+if __name__ == '__main__':  
+    main()
+```
+
+It's also possible to send arguments by keywords like this:
+
+```python
+def shit(a, b, **options):
+	if options.get("kwd") == "114514":
+		print("哼哼哼哼哼, 啊啊啊啊啊啊啊啊")
+	else:
+		print("原神, 启动!")
+```
+
 
 ## 五. 字符串
 
@@ -1834,3 +1885,151 @@ if __name__ == '__main__':
     main()
 ```
 
+
+## 十一. Moudle
+
+### 1. Create moudle
+
+```python
+# shit.py
+# 为了复习多线程所以这么写了
+import random  
+import time  
+from threading import Thread  
+  
+class shit(Thread):  
+    def __init__(self, size, whose, weight):  
+        super().__init__()  
+        self._size = size  
+        self._weight = weight  
+        self._whose = whose  
+  
+    @property  
+    def size(self):  
+        return self._size  
+  
+    @property  
+    def weight(self):  
+        return self._weight  
+  
+    @property  
+    def whose(self):  
+        return self._whose  
+  
+    def run(self):  
+        print(self._whose + " is taking shit...")  
+        time_to_take_shit = random.randint(5, 10)  
+        time.sleep(time_to_take_shit)  
+        print(self._whose + " Finished taking shit in " + str(time_to_take_shit) + "seconds, shit size: " + str(self._size) + "; shit weight: " + str(self._weight))
+				   
+
+```
+
+A moudle can include functions, variables, classes
+
+### 2. Import moudle
+
+#### 2.1 import the whole moudle:
+
+```python
+# main.py
+import shit as sh
+
+def main():  
+    shit_1 = sh.shit(10, "蔡徐坤", 5)  
+    shit_2 = sh.shit(12, "牢大", 2)  
+    shit_1.start()  
+    shit_2.start()  
+    shit_1.join()  
+    shit_2.join()  
+  
+  
+if __name__ == "__main__":  
+    main()
+```
+
+Output:
+
+```output
+蔡徐坤 is taking shit...
+牢大 is taking shit...
+牢大 Finished taking shit in 8seconds, shit size: 12; shit weight: 2
+蔡徐坤 Finished taking shit in 8seconds, shit size: 10; shit weight: 5
+```
+
+#### 2.2 import moudle objects to the current namespace
+
+```python
+# main.py
+from shit import shit
+
+def main():  
+    shit_1 = shit(10, "蔡徐坤", 5)  
+    shit_2 = shit(12, "牢大", 2)  
+    shit_1.start()  
+    shit_2.start()  
+    shit_1.join()  
+    shit_2.join()  
+  
+  
+if __name__ == "__main__":  
+    main()
+```
+
+### 3. Extending moudle loading path
+
+**Way 1**: Edit environment variable
+
+**Way 2**: use `sys.path.append(your_execublate_path)`
+
+### 4. Writing packages
+
+You can create a folder and put your moudles inside. The folder can be imported as a moudle. You can also import the moudle in your package through `import package_name.moudle_name`. 
+
+A package **must** have a .py named `__init__.py`, which tells python it's a python package
+
+```python
+# shit.py in package foo
+import random  
+import time  
+from threading import Thread  
+  
+class shit(Thread):  
+    def __init__(self, size, whose, weight):  
+        super().__init__()  
+        self._size = size  
+        self._weight = weight  
+        self._whose = whose  
+  
+    @property  
+    def size(self):  
+        return self._size  
+  
+    @property  
+    def weight(self):  
+        return self._weight  
+  
+    @property  
+    def whose(self):  
+        return self._whose  
+  
+    def run(self):  
+        print(self._whose + " is taking shit...")  
+        time_to_take_shit = random.randint(5, 10)  
+        time.sleep(time_to_take_shit)  
+        print(self._whose + " Finished taking shit in " + str(time_to_take_shit) + "seconds, shit size: " + str(self._size) + "; shit weight: " + str(self._weight))
+				   
+```
+
+```python
+# main.py
+import foo.shit as sh
+
+...
+```
+
+The file `__init__.py` decide which moudle the package exports as API, while others cannot, by editing the `__all__` variable:
+
+```python
+__all__ = ['shit']
+```
