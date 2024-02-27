@@ -108,7 +108,7 @@ if __name__ == "__main__":
 
 #### 1. 正则表达式 :
 
-相关知识 : 见[[../Miscell/正则表达式|正则表达式]]
+相关知识 : 见[[../Miscell/Regular Expressions|Regular Expressions]]
 
 
 - **优点** : 速度最快

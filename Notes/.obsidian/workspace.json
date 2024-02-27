@@ -11,9 +11,19 @@
             "id": "6a85ce122d4559e5",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/离散数学及其应用（第八版）.pdf"
+              }
+            }
+          },
+          {
+            "id": "77e538370e54c43d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
+                "file": "00 Diary/2024-02-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
+                "file": "00 Diary/2024-02-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/python/python学习笔记.md",
+                "file": "00 Diary/2024-02-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/python/python学习笔记.md"
+                "file": "00 Diary/2024-02-27.md"
               }
             }
           },
@@ -176,22 +187,25 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6a85ce122d4559e5",
+  "active": "77e538370e54c43d",
   "lastOpenFiles": [
+    "RecycleBin~da56.ffs_tmp/Math/微积分/高等数学 第7版 同济大学/高等数学  第7版 上册 同济大学.pdf",
+    "RecycleBin~da56.ffs_tmp/Math/微积分/高等数学 第7版 同济大学/高数习题全解下册 同济第七版.pdf",
+    "RecycleBin~da56.ffs_tmp/Math/微积分/高等数学 第7版 同济大学/高等数学  第7版 下册 同济大学.pdf",
+    "RecycleBin~da56.ffs_tmp/Math/微积分/微积分I/数学分析讲义（梅加强）.pdf",
+    "RecycleBin~da56.ffs_tmp/Math/微积分/高等数学 第7版 同济大学",
+    "RecycleBin~da56.ffs_tmp/Math/微积分/微积分I",
+    "RecycleBin~da56.ffs_tmp/Math/微积分",
+    "RecycleBin~da56.ffs_tmp/Math",
+    "RecycleBin~da56.ffs_tmp",
     "sync.ffs_lock",
-    "sync.ffs_db.9c0d.ffs_tmp",
-    "sync.ffs_db.589e.ffs_tmp",
-    "sync.ffs_db.dc77.ffs_tmp",
-    "sync.ffs_db.8919.ffs_tmp",
-    "sync.ffs_db.3bdb.ffs_tmp",
-    "sync.ffs_db.4622.ffs_tmp",
-    "sync.ffs_db.d1f8.ffs_tmp",
-    "sync.ffs_db.9c47.ffs_tmp",
-    "sync.ffs_db.0403.ffs_tmp",
-    "sync.ffs_db.13a1.ffs_tmp",
-    "Programming/python/python学习笔记.md",
-    "软件工程与计算/2. 可计算性.md",
+    "00 Diary/2024-02-27.md",
+    "Programming/Java/Java学习笔记.md",
+    "Math/离散数学/离散数学及其应用（第八版）.pdf",
     "软件工程与计算/1. 编程语言概述.md",
+    "软件工程与计算/2. 可计算性.md",
+    "Programming/Miscell/Regular Expressions.md",
+    "Programming/python/python学习笔记.md",
     "00 Resource/res/Pasted image 20240226110111.png",
     "00 Resource/res/Pasted image 20240226104634.png",
     "Programming/Miscell/解释型语言与编译型语言.md",
@@ -221,9 +235,6 @@
     "00 Resource/res/Newton.jpg",
     "Algorithm/算法合集/Floyd判圈法.md",
     "00 Diary/2024-02-19.md",
-    "00 Diary/2024-02-18.md",
-    "Programming/C++/C++学习笔记.md",
-    "00 Diary/2024-02-16.md",
     "未命名.canvas"
   ]
 }
