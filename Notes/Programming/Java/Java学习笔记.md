@@ -375,3 +375,113 @@ try {
   }
 ```
 
+
+# 9. Abstract Method
+
+An Abstract class is a class which has `abstract` keyword prefixed to it. A class must be prefixed with `abstract` if it has one or more methods with abstract keyword. An abstract method is only declared but not implemented. An abstract class cannot be instanciated but can be inherited by another class. The inheriting class must implement all the abstract methods or else the subclass should also be declared as abstract.
+
+Example: 
+
+```java
+abstract class abstractClass { 
+    abstract void abstractMethod(); 
+    void concreteMethod() { // concrete methods are still allowed in abstract classes 
+        System.out.println("This is a concrete method."); 
+    } 
+}
+```
+
+## Abstract classes versus interface
+
+Abstract classes can contain fields which are not `final` and `static` and can contain implemented methods as well but interfaces cannot. Abstract classes with only abstract methods should be defined as interfaces.
+
+
+# 10. Interfaces
+
+A template to create a class. 
+
+Define methods for class by specifying the method name, the return type and the argument names and types. These definations are called signatures, and the method signature contains no code.
+
+Example:
+
+```java
+// in Pet.java
+interface Pet {  
+    boolean feed(String food);  
+    boolean groom(int time, String way);  
+    void pet(int force, String place);  
+}
+
+//in Cat.java
+public class Cat implements Pet{  
+    boolean alive;  
+  
+    Cat(){  
+        this.alive = true;  
+    }  
+  
+    public boolean feed(String food){  
+        if(food.equals("Cat Food")){  
+            return true;  
+        }  
+        return false;  
+    }  
+  
+    public boolean groom(int time, String way){  
+        if(time < 0){  
+            System.out.println("Invalid time. Set to 0.");  
+            return false;  
+        }  
+        if(time < 10){  
+            System.out.println("Too short time.");  
+            return false;  
+        } else if(time > 60){  
+            System.out.println("Too long time.");  
+            this.alive = false;  
+            return false;  
+        } else {  
+            return true;  
+        }  
+    }  
+  
+    public void pet(int force, String place){  
+        if(force > 100){  
+            System.out.println("Too big force.");  
+            this.alive = false;  
+        } else {  
+            System.out.println("You pet your cat's " + place);  
+        }  
+    }  
+}
+```
+
+
+# 11. Using Generics
+
+Generics provide compile-time type safety that allows programmers to catch invalid types at compile time.
+
+Example:
+
+```java
+List<String> names = new ArrayList<>();
+```
+
+You can also use generics in classes:
+
+```java
+public class YourClass<Class1,Class2>{
+    private Class1 bob1;
+    private Class2 bob2;
+    Abc(Class1 a, Class2 b){
+        this.bob1 = a;
+        this.bob2 = b;
+    }
+    public Class1 getBob1() {
+        return (this.bob1);
+    }
+    public Class2 getBob2() {
+        return (this.bob2);
+    }
+}
+```
+

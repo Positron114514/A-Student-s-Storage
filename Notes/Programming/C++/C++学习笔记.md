@@ -336,7 +336,7 @@ void func(T1 a, T2 b){
 decltype((xx)) ans = xx; // make xx the type of &type(xx)
 ```
 
-- `auto`: 用于返回值类型未知
+- `auto`: 用于返回值类型未知  ^autoInCpp
 
 ```cpp
 auto shit(T1 x, T2 y){

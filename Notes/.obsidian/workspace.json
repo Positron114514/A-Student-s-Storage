@@ -4,16 +4,77 @@
     "type": "split",
     "children": [
       {
-        "id": "e8d7648f52d37c33",
+        "id": "2e74145ef7cc6213",
         "type": "tabs",
         "children": [
           {
-            "id": "d914632f3948ba7d",
+            "id": "d7236d319688719a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程与计算/SICP预习笔记.md",
+                "file": "Programming/Java/Java核心技术笔记-OOP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "600154aeebd444dd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Programming/Java/Java核心技术·卷 I（原书第11版） (凯·S.霍斯特曼 (Cay S. Horstmann)) (Z-Library).pdf"
+              }
+            }
+          },
+          {
+            "id": "6faff76d96d4925d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程与计算/SICP/2. 构造数据抽象.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6162697faed509ba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "24e28558361bc54c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "ee1475171da0d25f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec9aac05bebe7a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Java/Java核心技术笔记-OOP.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "tag:#程序设计",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -85,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "软件工程与计算/SICP预习笔记.md",
+                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "软件工程与计算/SICP预习笔记.md",
+                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "软件工程与计算/SICP预习笔记.md"
+                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md"
               }
             }
           },
@@ -146,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,54 +227,53 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d914632f3948ba7d",
+  "active": "24e28558361bc54c",
   "lastOpenFiles": [
+    "Programming/Java/Java核心技术笔记-OOP.md",
+    "Programming/Java/Java核心技术·卷 I（原书第11版） (凯·S.霍斯特曼 (Cay S. Horstmann)) (Z-Library).pdf",
+    "软件工程与计算/SICP/2. 构造数据抽象.md",
+    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
     "sync.ffs_lock",
-    "sync.ffs_db.3385.ffs_tmp",
-    "sync.ffs_db.acfb.ffs_tmp",
-    "sync.ffs_db.9533.ffs_tmp",
-    "sync.ffs_db.3b5f.ffs_tmp",
-    "sync.ffs_db.d2cf.ffs_tmp",
-    "sync.ffs_db.fd79.ffs_tmp",
-    "sync.ffs_db.0db1.ffs_tmp",
-    "sync.ffs_db.ca4c.ffs_tmp",
-    "sync.ffs_db.0899.ffs_tmp",
-    "sync.ffs_db.8cac.ffs_tmp",
-    "RecycleBin~af43.ffs_tmp/软件工程与计算/SICP预习笔记.md",
-    "软件工程与计算/2. 可计算性.md",
-    "软件工程与计算/SICP预习笔记.md",
-    "Programming/Java/Java学习笔记.md",
-    "Math/离散数学/Homework/作业01-命题逻辑.md",
+    "sync.ffs_db.2404.ffs_tmp",
+    "RecycleBin~fb60.ffs_tmp",
+    "软件工程与计算/SICP/1. 构造过程和抽象.md",
+    "00 Resource/res/HuffmanTree.java",
+    "00 Resource/res/NodeContent.java",
+    "Math/离散数学/PPT/05_集合及其运算-2024.pdf",
+    "Math/离散数学/Homework/src/作业04-集合及其运算.pdf",
     "Miscell/My Latex Symbols.md",
-    "Programming/Miscell/Regular Expressions.md",
-    "Programming/Miscell/正则表达式.md",
-    "Programming/python/python学习笔记.md",
-    "计算系统基础/1. 计算系统概述.md",
-    "00 Resource/res/Pasted image 20240229171800.png",
-    "00 Resource/res/Pasted image 20240229171727.png",
-    "Programming/书籍推荐.jpg",
-    "Programming/Miscell/解释型语言与编译型语言.md",
-    "Programming/C/OOP in C.md",
+    "计算系统基础/3. 数字逻辑电路.md",
+    "00 NewFile/作业 04 - 集合及逻辑运算.md",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第4次作业.pdf",
+    "00 Resource/res/sortedSet.java",
+    "00 Resource/res/Pasted image 20240314164520.png",
+    "00 Resource/res/Pasted image 20240314164423.png",
+    "00 Resource/res/Pasted image 20240314164336.png",
+    "00 Resource/res/Pasted image 20240314163819.png",
     "Programming/C++/C++学习笔记.md",
-    "00 Diary/2024-02-27.md",
-    "软件工程与计算/1. 编程语言概述.md",
-    "00 Resource/res/Pasted image 20240226110111.png",
-    "00 Resource/res/Pasted image 20240226104634.png",
-    "Algorithm/算法合集/回文字符串 - 马拉车算法.md",
-    "Excalidraw/mlc.md",
-    "Programming/python/基于Python的爬虫基础知识.md",
-    "Excalidraw/mlc.png",
-    "Algorithm/Leetcode101算法笔记.md",
-    "Excalidraw/Tree_b.md",
-    "Algorithm/算法学习笔记.md",
+    "00 Resource/res/Pasted image 20240313230712.png",
+    "Programming/python/python学习笔记.md",
+    "00 Resource/res/Pasted image 20240313221632.png",
+    "00 Resource/res/Pasted image 20240313113200.png",
+    "Math/离散数学/Homework/作业03 - 证明方法.md",
+    "Math/离散数学/Homework/作业03-证明方法-PDF提交版.md",
+    "00 Resource/res/Pasted image 20240313113442.png",
+    "00 Resource/res/Pasted image 20240313113427.png",
+    "00 Diary/2024-02-16.md",
+    "Excalidraw/SICP-Tree.md",
+    "软件工程与计算/Notes on Class/3. Lambda演算.md",
+    "Math/离散数学/Homework/231880313-刘鑫鑫-第2次作业.md",
+    "Programming/Java/Java核心技术笔记/Java核心技术笔记-OOP.md",
     "Algorithm/算法合集/牛顿迭代法.md",
-    "00 Diary/2024-02-23.md",
-    "Miscell/学习规划.md",
-    "Algorithm/数据结构合集/树.md",
-    "Excalidraw/Floyd Circle.png",
-    "00 Resource/res/total_2_tree.png",
-    "00 Resource/res/tree_brother_child.png",
-    "00 Resource/res/tree_child.png",
+    "Miscell/计划/学习规划.md",
+    "计算系统基础/2. 数据的机器级表示.md",
+    "RecycleBin~d83e.ffs_tmp/计算系统基础/3. 数据的机器级表示.md",
+    "软件工程与计算/SICP/My Scheme Functions.md",
+    "Math/离散数学/Homework/作业01-命题逻辑.md",
+    "00 NewFile/My Scheme Functions.md",
+    "计算系统基础/1. 计算系统概述.md",
+    "计算系统基础/DONOTREADME.md",
+    "00 Resource/res/Pasted image 20240304112443.png",
     "未命名.canvas"
   ]
 }
