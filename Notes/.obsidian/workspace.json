@@ -4,83 +4,85 @@
     "type": "split",
     "children": [
       {
-        "id": "2e74145ef7cc6213",
+        "id": "6998be771c7eeee0",
         "type": "tabs",
         "children": [
           {
-            "id": "d7236d319688719a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "600154aeebd444dd",
+            "id": "c5440586f5df6af4",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Programming/Java/Java核心技术·卷 I（原书第11版） (凯·S.霍斯特曼 (Cay S. Horstmann)) (Z-Library).pdf"
+                "file": "软件工程与计算/钮老师课件/03 基础-Lambda演算.pdf"
               }
             }
           },
           {
-            "id": "6faff76d96d4925d",
+            "id": "49156a7cff189514",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "软件工程与计算/SICP/2. 构造数据抽象.md",
+                "file": "00 NewFile/作业05 - 函数及其运算.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6162697faed509ba",
+            "id": "397a616f8aba6291",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/Homework/src/作业05-函数及其运算.pdf"
+              }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "aaad0abbd91cf1f8",
+        "type": "tabs",
+        "children": [
           {
-            "id": "24e28558361bc54c",
+            "id": "1753b849f85fd10c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+                "file": "00 NewFile/作业05 - 函数及其运算.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98d3d76005136eb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程与计算/Notes on Class/3. Lambda演算.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddbcf25ee6b3e81a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 NewFile/Homework-A2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
-      },
-      {
-        "id": "ee1475171da0d25f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ec9aac05bebe7a1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#程序设计",
+                "query": "柯里化",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+                "file": "00 NewFile/Homework-A2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+                "file": "00 NewFile/Homework-A2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md"
+                "file": "00 NewFile/Homework-A2.md"
               }
             }
           },
@@ -227,53 +230,53 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "24e28558361bc54c",
+  "active": "ddbcf25ee6b3e81a",
   "lastOpenFiles": [
-    "Programming/Java/Java核心技术笔记-OOP.md",
-    "Programming/Java/Java核心技术·卷 I（原书第11版） (凯·S.霍斯特曼 (Cay S. Horstmann)) (Z-Library).pdf",
-    "软件工程与计算/SICP/2. 构造数据抽象.md",
-    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+    "软件工程与计算/Notes on Class/3. Lambda演算.md",
+    "00 NewFile/作业05 - 函数及其运算.md",
+    "00 NewFile/Homework-A2.md",
+    "软件工程与计算/钮老师课件/03 基础-Lambda演算.pdf",
+    "Math/离散数学/Homework/src/作业05-函数及其运算.pdf",
+    "Math/离散数学/PPT/06_函数及其运算-2024.pdf",
     "sync.ffs_lock",
-    "sync.ffs_db.2404.ffs_tmp",
-    "RecycleBin~fb60.ffs_tmp",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第5次作业.pdf",
+    "软件工程与计算/Homework/Homework-A1.md",
+    "软件工程与计算/SICP/2. 构造数据抽象.md",
+    "软件工程与计算/Notes on Class/2. 可计算性.md",
+    "计算系统基础/4. 时序逻辑电路.md",
+    "00 Resource/res/Pasted image 20240319171318.png",
+    "00 Resource/res/Pasted image 20240319170932.png",
+    "00 Resource/res/Pasted image 20240319164240.png",
+    "00 Resource/res/Pasted image 20240319163635.png",
+    "软件工程与计算/Homework/PDF/Homework-A1-231880313-刘鑫鑫.pdf",
+    "软件工程与计算/Homework/PDF",
+    "软件工程与计算/Homework/新建文件夹",
+    "软件工程与计算/钮老师课件/02 基础-可计算性.pdf",
+    "Math/微积分/微积分II/微积分II解析.pdf",
+    "Excalidraw/Drawing 2024-03-18 20.45.18.excalidraw.png",
+    "Excalidraw/Drawing 2024-03-18 20.45.18.excalidraw.md",
+    "软件工程与计算/Notes on Class/1. 编程语言概述.md",
+    "软件工程与计算/Notes on Class/4. 程序设计基本元素.md",
+    "软件工程与计算/Notes on Class/理论总结.md",
+    "Math/离散数学/Homework/作业 04 - 集合及逻辑运算.md",
+    "00 Resource/res/Pasted image 20240318112602.png",
+    "Programming/python/python学习笔记.md",
+    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+    "Programming/Java/Java核心技术笔记-OOP.md",
     "软件工程与计算/SICP/1. 构造过程和抽象.md",
-    "00 Resource/res/HuffmanTree.java",
-    "00 Resource/res/NodeContent.java",
-    "Math/离散数学/PPT/05_集合及其运算-2024.pdf",
-    "Math/离散数学/Homework/src/作业04-集合及其运算.pdf",
     "Miscell/My Latex Symbols.md",
     "计算系统基础/3. 数字逻辑电路.md",
-    "00 NewFile/作业 04 - 集合及逻辑运算.md",
-    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第4次作业.pdf",
-    "00 Resource/res/sortedSet.java",
     "00 Resource/res/Pasted image 20240314164520.png",
     "00 Resource/res/Pasted image 20240314164423.png",
     "00 Resource/res/Pasted image 20240314164336.png",
     "00 Resource/res/Pasted image 20240314163819.png",
     "Programming/C++/C++学习笔记.md",
-    "00 Resource/res/Pasted image 20240313230712.png",
-    "Programming/python/python学习笔记.md",
-    "00 Resource/res/Pasted image 20240313221632.png",
-    "00 Resource/res/Pasted image 20240313113200.png",
     "Math/离散数学/Homework/作业03 - 证明方法.md",
     "Math/离散数学/Homework/作业03-证明方法-PDF提交版.md",
-    "00 Resource/res/Pasted image 20240313113442.png",
-    "00 Resource/res/Pasted image 20240313113427.png",
     "00 Diary/2024-02-16.md",
     "Excalidraw/SICP-Tree.md",
-    "软件工程与计算/Notes on Class/3. Lambda演算.md",
     "Math/离散数学/Homework/231880313-刘鑫鑫-第2次作业.md",
     "Programming/Java/Java核心技术笔记/Java核心技术笔记-OOP.md",
-    "Algorithm/算法合集/牛顿迭代法.md",
-    "Miscell/计划/学习规划.md",
-    "计算系统基础/2. 数据的机器级表示.md",
-    "RecycleBin~d83e.ffs_tmp/计算系统基础/3. 数据的机器级表示.md",
-    "软件工程与计算/SICP/My Scheme Functions.md",
-    "Math/离散数学/Homework/作业01-命题逻辑.md",
-    "00 NewFile/My Scheme Functions.md",
-    "计算系统基础/1. 计算系统概述.md",
-    "计算系统基础/DONOTREADME.md",
-    "00 Resource/res/Pasted image 20240304112443.png",
     "未命名.canvas"
   ]
 }
