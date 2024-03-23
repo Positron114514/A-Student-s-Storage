@@ -1,7 +1,5 @@
 # A Student's Storage
 
-> Contains the codes and notes I've wrote during my studying programming languages.
->
 > Author: Positron114514 (github)
 >
 > email: lxx11451@gmail.com
@@ -12,6 +10,9 @@
 
 Notes and Projects I wrote during learing Software Engineer
 
-
+Update every week. (Probably)
 
 Due to some reasons, some of my projects and notes cannot be uploaded.
+
+
+
