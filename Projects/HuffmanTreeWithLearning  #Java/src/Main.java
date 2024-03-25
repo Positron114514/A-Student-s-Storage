@@ -21,14 +21,17 @@ public class Main{
         CodeLearning huffmanTreeLearningResult = new CodeLearning();
         huffmanTreeLearningResult.learnFromText("./res/learn.txt");
         huffmanTreeLearningResult.learnFromText("./res/code.txt");
-        ArrayList<NodeContent> result = huffmanTreeLearningResult.getLeaningResult();
+        huffmanTreeLearningResult.learnFromText("./res/learn2.txt");
+        huffmanTreeLearningResult.learnFromText("./res/learn3.txt");
 
-        HuffmanTree huffmanTree = new HuffmanTree(result);
+        HuffmanTree huffmanTree = huffmanTreeLearningResult.createHuffmanTreeFromResult();
 
 //        System.out.println(huffmanTree);
 
         String savePath = "./res/codedFile.txt";
 
         saveAsFile(huffmanTree.codeFile("./res/code.txt"), savePath);
+
+        System.out.println(huffmanTree);
     }
 }

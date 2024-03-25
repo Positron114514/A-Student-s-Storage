@@ -26,4 +26,4 @@ $\forall x$ , 取 $C$ 中对于任何输入输出均为 $x$ 的函数构成集�
 
 $T = \{\#M : M是一个全函数 \}$ 不可判定
 
-有 $C \subset T$ , 因此 $C$ 不可判定
+有 $C \subset T$ , 而 $\exists M \notin T$ , 因此 $C$ 不可判定

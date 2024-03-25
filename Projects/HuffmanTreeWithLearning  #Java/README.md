@@ -10,6 +10,17 @@ In fact the whole project can be unwritten by `sortedMap` , but I wrote this aft
 
 ## How to use:
 
+1. Use `learnFromText` in `CodeLearning` to get the frequency of each characteristic and learn from texts
+2. Use `getLearningResult` in `CodeLearning` to get learning result, whose type is `ArrayList<NodeContent>`
+3. Use the learning result to create a `HuffmanTree`
+4. Use `code` `codeFile` `decode` `decodeFile` in `HuffmanTree` to code / decode your text
+
+
+
+PS: In the new version, you can simply use `createHuffmanTreeFromResult`  in `CodeLearning` to create a `HuffmanTree` from your learning result. (Skip Step 2 && 3)
+
+
+
 An Example:
 
 ```java
@@ -54,6 +65,8 @@ CodeLearning();
 public void learnFromText(String filePath);
 // get learn result
 public ArrayList<NodeContent> getLeaningResult();
+// create a HuffmanTree from learning result
+public HuffmanTree createHuffmanTreeFromResult();
 ```
 
 

@@ -16,6 +16,7 @@ public class CodeLearning {
                 String line = scanner.nextLine();
                 // operation
                 analyseSentence(line);
+                normalizeResult();
             }
 
             scanner.close();
@@ -38,6 +39,10 @@ public class CodeLearning {
         return arr;
     }
 
+    public HuffmanTree createHuffmanTreeFromResult(){
+        return new HuffmanTree(toArrayList());
+    }
+
     private void analyseSentence(String sentence){
         for(int i = 0; i < sentence.length(); i++){
             char tempCh = sentence.charAt(i);
@@ -45,6 +50,25 @@ public class CodeLearning {
                 leaningResult.put(tempCh, leaningResult.get(tempCh) + 1);
             }else{
                 leaningResult.put(tempCh, 1);
+            }
+        }
+    }
+
+    private boolean examNumSize(){
+        int MAX_NUM_SIZE = 10000000;
+        for (Map.Entry<Character, Integer> entry : leaningResult.entrySet()) {
+            if(entry.getValue() > MAX_NUM_SIZE){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private void normalizeResult(){
+        if(examNumSize()){
+            for (Map.Entry<Character, Integer> entry : leaningResult.entrySet()) {
+                entry.setValue(entry.getValue() / 10);
             }
         }
     }
