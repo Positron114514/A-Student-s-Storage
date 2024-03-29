@@ -54,43 +54,43 @@
             }
           },
           {
-            "id": "d106cb08bb087b1f",
+            "id": "9af578d52d44abe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md",
+                "file": "Miscell/计划/学习规划.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09f37ed66dea9e98",
+            "id": "46c41db0c147b495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/Java学习笔记.md",
+                "file": "00 NewFile/python与数据分析.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7b5ba28caa30f2b0",
+            "id": "1fa011b58960565f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+                "file": "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -140,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "58521eabd6c9dbc5",
@@ -157,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md",
+                "file": "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md",
+                "file": "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -197,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Java/Java核心技术笔记-OOP.md"
+                "file": "软件工程与计算/Notes on Class/5-1 编程实践：控制.md"
               }
             }
           },
@@ -237,25 +236,38 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d106cb08bb087b1f",
+  "active": "1fa011b58960565f",
   "lastOpenFiles": [
-    "sync.ffs_lock",
-    "sync.ffs_db.31db.ffs_tmp",
-    "sync.ffs_db.2d76.ffs_tmp",
-    "sync.ffs_db.260f.ffs_tmp",
-    "sync.ffs_db.89e6.ffs_tmp",
-    "sync.ffs_db.b089.ffs_tmp",
-    "sync.ffs_db.b31e.ffs_tmp",
-    "sync.ffs_db.3d2d.ffs_tmp",
-    "sync.ffs_db.f127.ffs_tmp",
-    "sync.ffs_db.2161.ffs_tmp",
-    "sync.ffs_db.119e.ffs_tmp",
-    "Programming/Java/Java学习笔记.md",
-    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+    "00 NewFile/python与数据分析.md",
+    "软件工程与计算/Notes on Class/6-1 编程实践：高阶函数.md",
+    "Miscell/计划/学习规划.md",
+    "Math/离散数学/PPT/08_集合论-集合的基数-2024.pdf",
+    "00 Diary/2024-03-26.md",
+    "00 Diary/2024-02-27.md",
+    "00 Diary/2024-02-23.md",
+    "00 Diary/2024-02-19.md",
+    "00 Diary/2024-02-18.md",
+    "00 Diary/2024-02-17.md",
+    "00 Diary/2024-02-16.md",
+    "00 Diary/2024-02-14.md",
+    "Math/离散数学/PPT/07_集合论-自然数与数论初步-2024.pdf",
+    "00 NewFile/未命名.md",
+    "Math/离散数学/PPT/09_归纳与递归-2024.pdf",
     "Programming/Java/Java核心技术笔记-OOP.md",
+    "Programming/Java/Java学习笔记.md",
+    "软件工程与计算/SICP/2. 构造数据抽象.md",
+    "sync.ffs_lock",
+    "sync.ffs_db.eed7.ffs_tmp",
+    "sync.ffs_db.b13d.ffs_tmp",
+    "sync.ffs_db.03ed.ffs_tmp",
+    "sync.ffs_db.dea3.ffs_tmp",
+    "sync.ffs_db.7a0f.ffs_tmp",
+    "sync.ffs_db.9b16.ffs_tmp",
+    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+    "Excalidraw/Drawing 2024-03-25 18.53.24.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-25 18.53.24.excalidraw.png",
     "软件工程与计算/Homework/Homework-A1.md",
     "软件工程与计算/Notes on Class/1. 编程语言概述.md",
-    "软件工程与计算/Notes on Class/6-1 编程实践：高阶函数.md",
     "软件工程与计算/Notes on Class/5-2 编程实践：环境图.md",
     "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
     "软件工程与计算/Notes on Class/4. 程序设计基本元素.md",
@@ -263,28 +275,15 @@
     "软件工程与计算/Notes on Class/3. Lambda演算.md",
     "软件工程与计算/Notes on Class/2. 可计算性.md",
     "软件工程与计算/SICP/1. 构造过程和抽象.md",
-    "Math/离散数学/Homework/作业05 - 函数及其运算.md",
-    "Programming/python/python学习笔记.md",
-    "Programming/python/Tkinter学习笔记.md",
-    "软件工程与计算/SICP/2. 构造数据抽象.md",
-    "软件工程与计算/Homework/Homework-A2.md",
-    "计算系统基础/4. 时序逻辑电路.md",
     "00 Resource/res/Pasted image 20240319171318.png",
     "00 Resource/res/Pasted image 20240319170932.png",
     "00 Resource/res/Pasted image 20240319164240.png",
     "00 Resource/res/Pasted image 20240319163635.png",
     "Excalidraw/Drawing 2024-03-18 20.45.18.excalidraw.png",
-    "Excalidraw/Drawing 2024-03-18 20.45.18.excalidraw.md",
-    "Math/离散数学/Homework/作业 04 - 集合及逻辑运算.md",
     "00 Resource/res/Pasted image 20240318112602.png",
-    "Miscell/My Latex Symbols.md",
-    "计算系统基础/3. 数字逻辑电路.md",
     "00 Resource/res/Pasted image 20240314164520.png",
     "00 Resource/res/Pasted image 20240314164423.png",
     "00 Resource/res/Pasted image 20240314164336.png",
-    "00 Resource/res/Pasted image 20240314163819.png",
-    "Programming/C++/C++学习笔记.md",
-    "Math/离散数学/Homework/作业03 - 证明方法.md",
     "未命名.canvas"
   ]
 }
