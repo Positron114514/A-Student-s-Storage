@@ -28,6 +28,9 @@
 | $\leftrightarrow$ | \leftrightarrow |
 | $\cap$            | \cap            |
 | $\cup$            | \cup            |
+| $\ni$             | \ni (有意思)       |
+| $\therefore$      | \therefore      |
+| $\because$        | \because        |
 
 # Sentence
 
