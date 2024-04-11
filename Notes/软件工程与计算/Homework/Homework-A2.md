@@ -14,10 +14,31 @@ $n = \lambda f.\lambda x. nfx$
 
 Sub m n  = $n$ Pred $m$ = $n(\lambda f. \lambda x.  m (\lambda g.\lambda h.h(g \space f))(\lambda u.x)(\lambda u.u))$ = $\lambda y.n(\lambda f. \lambda x.  m (\lambda g.\lambda h.h(g \space f))(\lambda u.x)(\lambda u.u))x$ = $\lambda y.n(\lambda z.  m (\lambda g.\lambda h.h(g \space x))(\lambda u.z)(\lambda u.u))$
 
-问题: 若 $m < n$ 会出现问题
+问题: 若 $m < n$ 则会得到 0 而非一个负数 (无法表示负数), 即
+
+$$
+Sub \space n \space m =
+\begin{cases}
+    0 & \text{if } n \leq m, \\
+    n - m & \text{if } n > m.
+\end{cases}
+$$
 # 3. How to define Leq
 
-Leq n m = if $ $ 
+ 由于
+
+$$
+Sub \space n \space m =
+\begin{cases}
+    0 & \text{if } n \leq m, \\
+    n - m & \text{if } n > m.
+\end{cases}
+$$
+则有: 
+
+Leq n m = if Iszero(Sub n m) the True else False 
+
+Leq n m = $\lambda n. \lambda m.Iszero(Sub \space n \space m)$ 
 
 # 4. 斐波那契数列
 
@@ -30,3 +51,9 @@ F(1) = 1
 F(n) = F(n − 1) + F(n − 2)
 
 求 F
+
+F(n) = $\lambda n. Add \space F(Sub \space n \space 1) F(Sub \space n \space 2)$ = $\lambda$f.$\lambda$n.Add f(Sub n 1) f(Sub n 2) F
+
+即表达式 $\lambda$f.$\lambda$n.Add f(Sub n 1) f(Sub n 2) 的不动点
+
+F = $\Theta$ ($\lambda$f.$\lambda$n.(Add f(Sub n 1) f(Sub n 2))), $\Theta$ 为图灵不动点

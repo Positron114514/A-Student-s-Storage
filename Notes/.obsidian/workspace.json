@@ -4,32 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8afab885d54eeefb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1475044d5f329f80",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Math/离散数学/Homework/src/作业08-归纳与递归.pdf"
-              }
-            }
-          },
-          {
-            "id": "d581dddcceb5f911",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Math/离散数学/PPT/09_归纳与递归-2024.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "b847a10107aa5d3b",
         "type": "tabs",
         "children": [
@@ -56,8 +30,79 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1e9ab8b9f5d0b6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程与计算/Homework/Homework-A2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf2da3ff0b1ec40f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程与计算/Notes on Class/7-1 数据抽象.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c06fca48d47ae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/python/python学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd96f836a497cc33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/python/python学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab7e777c03279576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/C++/C++学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0502623e467a44f2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/微积分/微积分II/微积分II解析.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -124,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 NewFile/作业08 - 归纳与递归.md",
+                "file": "Programming/C++/C++学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 NewFile/作业08 - 归纳与递归.md",
+                "file": "Programming/C++/C++学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -164,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 NewFile/作业08 - 归纳与递归.md"
+                "file": "Programming/C++/C++学习笔记.md"
               }
             }
           },
@@ -204,34 +249,39 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1c76e08a7889cb40",
+  "active": "ab7e777c03279576",
   "lastOpenFiles": [
+    "Math/微积分/微积分II/微积分II解析.pdf",
+    "软件工程与计算/Notes on Class/7-1 数据抽象.md",
+    "软件工程与计算/Homework/Homework-A2.md",
+    "00 NewFile/作业08 - 归纳与递归.md",
+    "Miscell/My Latex Symbols.md",
+    "00 NewFile/7-2 容器.md",
+    "Programming/python/python学习笔记.md",
+    "软件工程与计算/钮老师课件/07 - 2 编程实践-容器.pdf",
+    "Programming/C++/C++学习笔记.md",
+    "00 Resource/res/Pasted image 20240408093529.png",
+    "软件工程与计算/钮老师课件/07 - 1 编程实践-数据抽象.pdf",
+    "00 Resource/res/Pasted image 20240408092027.png",
+    "软件工程与计算/钮老师课件/03 基础-Lambda演算.pdf",
+    "软件工程与计算/Notes on Class/6-2 编程实践-递归.md",
+    "软件工程与计算/Homework/PDF/Homework-A2-231880313-刘鑫鑫.pdf",
     "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第8次作业.pdf",
     "Math/离散数学/Homework/src/作业08-归纳与递归.pdf",
-    "00 NewFile/作业08 - 归纳与递归.md",
     "Math/离散数学/PPT/09_归纳与递归-2024.pdf",
-    "Miscell/My Latex Symbols.md",
     "软件工程与计算/钮老师课件/06 - 1 编程实践-高阶函数.pdf",
-    "软件工程与计算/Notes on Class/6-2 编程实践-递归.md",
     "软件工程与计算/钮老师课件/06 - 2编程实践-递归.pdf",
     "软件工程与计算/SICP/2. 构造数据抽象.md",
-    "00 NewFile/数据抽象.md",
     "软件工程与计算/SICP/1. 构造过程和抽象.md",
     "软件工程与计算/Notes on Class/6-1 编程实践：高阶函数.md",
     "计算系统基础/books/计算系统基础.pdf",
     "Programming/python/python与数据分析.md",
     "计算系统基础/5. 运算方法和运算部件.md",
-    "sync.ffs_lock",
-    "sync.ffs_db.efdd.ffs_tmp",
-    "sync.ffs_db.f3d6.ffs_tmp",
-    "sync.ffs_db.d064.ffs_tmp",
-    "sync.ffs_db.cdc1.ffs_tmp",
     "00 Resource/res/Pasted image 20240331164506.png",
     "00 Resource/res/Pasted image 20240331151949.png",
     "00 Resource/res/Pasted image 20240331151728.png",
     "软件工程与计算/Notes on Class/5-2 编程实践：环境图.md",
     "软件工程与计算/Notes on Class/4. 程序设计基本元素.md",
-    "软件工程与计算/Homework/Homework-A2.md",
     "软件工程与计算/Homework/Homework-A1.md",
     "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
     "00 Resource/res/box_plot_1.png",
@@ -245,13 +295,8 @@
     "00 Diary/2024-02-18.md",
     "00 Diary/2024-02-17.md",
     "00 Diary/2024-02-16.md",
-    "00 Diary/2024-02-14.md",
-    "Programming/Java/Java核心技术笔记-OOP.md",
-    "Programming/Java/Java学习笔记.md",
     "Excalidraw/Drawing 2024-03-25 18.53.24.excalidraw.png",
     "00 Resource/res/Pasted image 20240319171318.png",
-    "00 Resource/res/Pasted image 20240319170932.png",
-    "00 Resource/res/Pasted image 20240319164240.png",
     "未命名.canvas"
   ]
 }
