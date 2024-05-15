@@ -4,23 +4,134 @@
     "type": "split",
     "children": [
       {
-        "id": "b847a10107aa5d3b",
+        "id": "6dfc503059a45c01",
         "type": "tabs",
         "children": [
           {
-            "id": "1c76e08a7889cb40",
+            "id": "f502858f976e6ba0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "软件工程与计算/钮老师课件/11 编程进阶-Java的基本语法.pdf"
+              }
+            }
+          },
+          {
+            "id": "3d1a44a758988407",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/PPT/14_关系闭包与等价关系-2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "e6c712006240bd7a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/PPT/13_二元关系-2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "a0758c9f828c5156",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/微积分/微积分II/微积分II解析.pdf"
+              }
+            }
+          },
+          {
+            "id": "30e99ffba9baf667",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/Homework/src/作业15-格.pdf"
+              }
+            }
+          },
+          {
+            "id": "bcfaa368cc95a607",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "软件工程与计算/钮老师课件/12 编程进阶-Java面向对象.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "6a38e3d6e26a3382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3d8e0ae743df4ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 NewFile/作业08 - 归纳与递归.md",
+                "file": "00 NewFile/12 Java面向对象.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d3604f4acfe6cbee",
+            "id": "7ffbb6906bc67ac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "软件工程与计算/Notes on Class/11 Java 基本语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "464de8049e222f35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 NewFile/作业15 - 格.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a95a38058a16147d",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Hw15_P4(1).md"
+              }
+            }
+          },
+          {
+            "id": "29557dd68e9e073c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/PPT/16_格-2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "8c240132f04e0d49",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,79 +141,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b1e9ab8b9f5d0b6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件工程与计算/Homework/Homework-A2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf2da3ff0b1ec40f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件工程与计算/Notes on Class/7-1 数据抽象.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00c06fca48d47ae7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/python/python学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd96f836a497cc33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/python/python学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab7e777c03279576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/C++/C++学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0502623e467a44f2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Math/微积分/微积分II/微积分II解析.pdf"
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -152,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
+    "width": 351.5,
     "collapsed": true
   },
   "right": {
@@ -169,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Miscell/My Latex Symbols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md",
+                "file": "Miscell/My Latex Symbols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -209,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/C++/C++学习笔记.md"
+                "file": "Miscell/My Latex Symbols.md"
               }
             }
           },
@@ -224,9 +265,19 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "8d193c3f9de551a7",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Miscell/My Latex Symbols.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -249,54 +300,53 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ab7e777c03279576",
+  "active": "8c240132f04e0d49",
   "lastOpenFiles": [
-    "Math/微积分/微积分II/微积分II解析.pdf",
-    "软件工程与计算/Notes on Class/7-1 数据抽象.md",
-    "软件工程与计算/Homework/Homework-A2.md",
-    "00 NewFile/作业08 - 归纳与递归.md",
-    "Miscell/My Latex Symbols.md",
-    "00 NewFile/7-2 容器.md",
-    "Programming/python/python学习笔记.md",
-    "软件工程与计算/钮老师课件/07 - 2 编程实践-容器.pdf",
-    "Programming/C++/C++学习笔记.md",
-    "00 Resource/res/Pasted image 20240408093529.png",
-    "软件工程与计算/钮老师课件/07 - 1 编程实践-数据抽象.pdf",
-    "00 Resource/res/Pasted image 20240408092027.png",
-    "软件工程与计算/钮老师课件/03 基础-Lambda演算.pdf",
-    "软件工程与计算/Notes on Class/6-2 编程实践-递归.md",
-    "软件工程与计算/Homework/PDF/Homework-A2-231880313-刘鑫鑫.pdf",
-    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第8次作业.pdf",
-    "Math/离散数学/Homework/src/作业08-归纳与递归.pdf",
-    "Math/离散数学/PPT/09_归纳与递归-2024.pdf",
-    "软件工程与计算/钮老师课件/06 - 1 编程实践-高阶函数.pdf",
-    "软件工程与计算/钮老师课件/06 - 2编程实践-递归.pdf",
-    "软件工程与计算/SICP/2. 构造数据抽象.md",
+    "00 NewFile/作业15 - 格.md",
+    "Math/离散数学/PPT/16_格-2024.pdf",
+    "Math/离散数学/Homework/src/作业15-格.pdf",
+    "Excalidraw/Hw15_P4(1).md",
+    "Excalidraw/Hw15_P4(1).png",
+    "Excalidraw/hw21_p2_2.png",
+    "00 NewFile/未命名.md",
+    "Math/离散数学/PPT/13_二元关系-2024.pdf",
+    "00 NewFile/12 Java面向对象.md",
+    "软件工程与计算/钮老师课件/12 编程进阶-Java面向对象.pdf",
+    "00 Resource/res/Pasted image 20240513094612.png",
+    "软件工程与计算/Notes on Class/11 Java 基本语法.md",
+    "软件工程与计算/钮老师课件/11 编程进阶-Java的基本语法.pdf",
+    "00 Resource/res/Pasted image 20240513090457.png",
+    "Math/离散数学/PPT.7z",
+    "Math/离散数学/PPT.zip",
+    "00 NewFile/el.md",
     "软件工程与计算/SICP/1. 构造过程和抽象.md",
-    "软件工程与计算/Notes on Class/6-1 编程实践：高阶函数.md",
-    "计算系统基础/books/计算系统基础.pdf",
-    "Programming/python/python与数据分析.md",
-    "计算系统基础/5. 运算方法和运算部件.md",
-    "00 Resource/res/Pasted image 20240331164506.png",
-    "00 Resource/res/Pasted image 20240331151949.png",
-    "00 Resource/res/Pasted image 20240331151728.png",
-    "软件工程与计算/Notes on Class/5-2 编程实践：环境图.md",
-    "软件工程与计算/Notes on Class/4. 程序设计基本元素.md",
-    "软件工程与计算/Homework/Homework-A1.md",
-    "软件工程与计算/Notes on Class/5-1 编程实践：控制.md",
-    "00 Resource/res/box_plot_1.png",
-    "00 Resource/res/ndarray-slice.png",
-    "00 Resource/res/ndarray-index.png",
-    "Miscell/计划/学习规划.md",
-    "00 Diary/2024-03-26.md",
-    "00 Diary/2024-02-27.md",
-    "00 Diary/2024-02-23.md",
-    "00 Diary/2024-02-19.md",
-    "00 Diary/2024-02-18.md",
-    "00 Diary/2024-02-17.md",
-    "00 Diary/2024-02-16.md",
-    "Excalidraw/Drawing 2024-03-25 18.53.24.excalidraw.png",
-    "00 Resource/res/Pasted image 20240319171318.png",
+    "Math/微积分/微积分II/微积分II解析.pdf",
+    "Math/离散数学/PPT/17_布尔代数-2024.pdf",
+    "Math/离散数学/Homework/作业14 - 偏序集.md",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第14次作业.pdf",
+    "00 Resource/res/0509_2.jpg",
+    "00 Resource/res/0509_1.jpg",
+    "00 Resource/res/0509_3.jpg",
+    "软件工程与计算/Notes on Class/8-2 迭代器和生成器.md",
+    "软件工程与计算/Notes on Class/9 面向对象.md",
+    "软件工程与计算/Notes on Class/10 - 1 继承.md",
+    "软件工程与计算/Notes on Class/10 - 2 多态.md",
+    "00 Resource/res/Pasted image 20240506104750.png",
+    "00 Resource/res/Pasted image 20240506101636.png",
+    "Math/离散数学/Homework/作业13 - 关系闭包与等价关系.md",
+    "00 Resource/res/Pasted image 20240429100325.png",
+    "Programming/python/python学习笔记.md",
+    "Miscell/My Latex Symbols.md",
+    "Excalidraw/hw_12_p2_1.md",
+    "Excalidraw/hw21_p2_2.md",
+    "Math/离散数学/Homework/作业12 二元关系.md",
+    "软件工程与计算/Notes on Class/7-2 容器.md",
+    "软件工程与计算/Notes on Class/8-1 可变性.md",
+    "Math/离散数学/Homework/作业11 离散概率.md",
+    "Miscell/myrecommend.md",
+    "软件工程与计算/Notes on Class/未命名.md",
+    "Math/离散数学/Homework/作业10 排列组合.md",
+    "Excalidraw/Drawing 2024-04-15 20.16.03.excalidraw.md",
     "未命名.canvas"
   ]
 }

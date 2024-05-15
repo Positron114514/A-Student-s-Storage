@@ -31,6 +31,9 @@
 | $\ni$             | \ni (有意思)       |
 | $\therefore$      | \therefore      |
 | $\because$        | \because        |
+| $\times$          | \times          |
+| $\circ$           | \circ           |
+| $\square$         | \square         |
 
 # Sentence
 
