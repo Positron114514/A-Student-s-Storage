@@ -4,146 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "6dfc503059a45c01",
+        "id": "c3fb55f44c8efc60",
         "type": "tabs",
         "children": [
           {
-            "id": "f502858f976e6ba0",
+            "id": "099e41d03bb618ce",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "软件工程与计算/钮老师课件/11 编程进阶-Java的基本语法.pdf"
+                "file": "计算系统基础/期末复习/计算系统基础参考题目.pdf"
               }
             }
           },
           {
-            "id": "3d1a44a758988407",
+            "id": "e55e918a8facb750",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Math/离散数学/PPT/14_关系闭包与等价关系-2024.pdf"
+                "file": "计算系统基础/2. 数据的机器级表示.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "e6c712006240bd7a",
+            "id": "8b6e64436b1c0a4a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Math/离散数学/PPT/13_二元关系-2024.pdf"
+                "file": "软件工程与计算/Notes on Class/2. 可计算性.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "a0758c9f828c5156",
+            "id": "b27aad6f3f14c198",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Math/微积分/微积分II/微积分II解析.pdf"
+                "file": "Math/微积分/微积分II/微积分II解析(Part2).pdf"
               }
             }
           },
           {
-            "id": "30e99ffba9baf667",
+            "id": "ad3a1fcdf56cbeb3",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Math/离散数学/Homework/src/作业15-格.pdf"
-              }
-            }
-          },
-          {
-            "id": "bcfaa368cc95a607",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "软件工程与计算/钮老师课件/12 编程进阶-Java面向对象.pdf"
+                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
               }
             }
           }
         ],
         "currentTab": 4
-      },
-      {
-        "id": "6a38e3d6e26a3382",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b3d8e0ae743df4ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 NewFile/12 Java面向对象.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ffbb6906bc67ac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件工程与计算/Notes on Class/11 Java 基本语法.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "464de8049e222f35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 NewFile/作业15 - 格.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a95a38058a16147d",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Hw15_P4(1).md"
-              }
-            }
-          },
-          {
-            "id": "29557dd68e9e073c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Math/离散数学/PPT/16_格-2024.pdf"
-              }
-            }
-          },
-          {
-            "id": "8c240132f04e0d49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Miscell/My Latex Symbols.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -210,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscell/My Latex Symbols.md",
+                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Miscell/My Latex Symbols.md",
+                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -250,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscell/My Latex Symbols.md"
+                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
               }
             }
           },
@@ -272,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Miscell/My Latex Symbols.md"
+                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
               }
             }
           }
@@ -300,53 +219,54 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "8c240132f04e0d49",
+  "active": "ad3a1fcdf56cbeb3",
   "lastOpenFiles": [
-    "00 NewFile/作业15 - 格.md",
-    "Math/离散数学/PPT/16_格-2024.pdf",
-    "Math/离散数学/Homework/src/作业15-格.pdf",
+    "计算系统基础/期末复习/计算系统基础参考题目.pdf",
+    "Math/微积分/微积分II/微积分II解析(Part2).pdf",
+    "Math/微积分/微积分II/~$大学微积分Ⅱ答案（下）(1).docx",
+    "Math/微积分/微积分II/南京大学微积分Ⅱ答案（下）(1).docx",
+    "Math/离散数学/PPT/21_循环群与群同构-2024.pdf",
+    "Math/离散数学/PPT/20_子群与群的分解-2024.pdf",
+    "Math/离散数学/Homework/src/作业19-子群与拉格朗日定理.pdf",
+    "Math/微积分/微积分II/微积分II解析.pdf",
+    "Miscell/微观经济学/微观经济学 - Chap1需求 供给和均衡价格.md",
+    "Miscell/My Latex Symbols.md",
+    "Math/离散数学/Homework/作业19 - 子群与拉格朗日定理.md",
+    "00 NewFile/el.md",
+    "00 NewFile/《媒介理论范式的兴起：基于不同学派的比较分析》读书笔记.md",
+    "计算系统基础/期末复习",
+    "计算系统基础/新建文件夹",
+    "计算系统基础/2. 数据的机器级表示.md",
+    "软件工程与计算/Notes on Class/2. 可计算性.md",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第19次作业.pdf",
+    "Miscell/计划/大一下期末复习计划.md",
+    "Miscell/myrecommend.md",
+    "软件工程与计算/Notes on Class/14 - 解释器.md",
+    "00 Resource/res/Pasted image 20240527110801.png",
+    "00 Resource/res/Pasted image 20240527104424.png",
+    "Programming/Miscell/Regular Expressions.md",
+    "Programming/C++/C++与Python混合编程 - 用C++调用python.md",
+    "Math/离散数学/Homework/作业16 - 布尔代数.md",
+    "软件工程与计算/Notes on Class/13 Java的其他特性.md",
+    "Programming/Java/Java学习笔记.md",
+    "软件工程与计算/Notes on Class/12 Java面向对象.md",
+    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
+    "00 Resource/res/IMG_3052.png",
+    "00 Resource/res/IMG_3051.png",
+    "00 Resource/res/Pasted image 20240520114026.png",
+    "Math/离散数学/Homework/作业15 - 格.md",
     "Excalidraw/Hw15_P4(1).md",
     "Excalidraw/Hw15_P4(1).png",
     "Excalidraw/hw21_p2_2.png",
-    "00 NewFile/未命名.md",
-    "Math/离散数学/PPT/13_二元关系-2024.pdf",
-    "00 NewFile/12 Java面向对象.md",
-    "软件工程与计算/钮老师课件/12 编程进阶-Java面向对象.pdf",
     "00 Resource/res/Pasted image 20240513094612.png",
     "软件工程与计算/Notes on Class/11 Java 基本语法.md",
-    "软件工程与计算/钮老师课件/11 编程进阶-Java的基本语法.pdf",
     "00 Resource/res/Pasted image 20240513090457.png",
-    "Math/离散数学/PPT.7z",
-    "Math/离散数学/PPT.zip",
-    "00 NewFile/el.md",
     "软件工程与计算/SICP/1. 构造过程和抽象.md",
-    "Math/微积分/微积分II/微积分II解析.pdf",
-    "Math/离散数学/PPT/17_布尔代数-2024.pdf",
     "Math/离散数学/Homework/作业14 - 偏序集.md",
-    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第14次作业.pdf",
     "00 Resource/res/0509_2.jpg",
-    "00 Resource/res/0509_1.jpg",
-    "00 Resource/res/0509_3.jpg",
     "软件工程与计算/Notes on Class/8-2 迭代器和生成器.md",
     "软件工程与计算/Notes on Class/9 面向对象.md",
     "软件工程与计算/Notes on Class/10 - 1 继承.md",
-    "软件工程与计算/Notes on Class/10 - 2 多态.md",
-    "00 Resource/res/Pasted image 20240506104750.png",
-    "00 Resource/res/Pasted image 20240506101636.png",
-    "Math/离散数学/Homework/作业13 - 关系闭包与等价关系.md",
-    "00 Resource/res/Pasted image 20240429100325.png",
-    "Programming/python/python学习笔记.md",
-    "Miscell/My Latex Symbols.md",
-    "Excalidraw/hw_12_p2_1.md",
-    "Excalidraw/hw21_p2_2.md",
-    "Math/离散数学/Homework/作业12 二元关系.md",
-    "软件工程与计算/Notes on Class/7-2 容器.md",
-    "软件工程与计算/Notes on Class/8-1 可变性.md",
-    "Math/离散数学/Homework/作业11 离散概率.md",
-    "Miscell/myrecommend.md",
-    "软件工程与计算/Notes on Class/未命名.md",
-    "Math/离散数学/Homework/作业10 排列组合.md",
-    "Excalidraw/Drawing 2024-04-15 20.16.03.excalidraw.md",
     "未命名.canvas"
   ]
 }
