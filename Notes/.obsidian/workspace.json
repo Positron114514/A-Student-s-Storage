@@ -8,51 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "099e41d03bb618ce",
+            "id": "bb4b4c3809781ec2",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "计算系统基础/期末复习/计算系统基础参考题目.pdf"
+                "file": "Math/离散数学/PPT/24_图论-欧拉图与哈密尔顿图-2024.pdf"
               }
             }
           },
           {
-            "id": "e55e918a8facb750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算系统基础/2. 数据的机器级表示.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b6e64436b1c0a4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "软件工程与计算/Notes on Class/2. 可计算性.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b27aad6f3f14c198",
+            "id": "cc8cce21994a4263",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Math/微积分/微积分II/微积分II解析(Part2).pdf"
+                "file": "Math/离散数学/Homework/src/作业24-树的基本概念与应用.pdf"
               }
             }
           },
           {
-            "id": "ad3a1fcdf56cbeb3",
+            "id": "847f61d92dbb8ff4",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -60,9 +36,83 @@
                 "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
               }
             }
+          },
+          {
+            "id": "ae14038fc211ad4b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/PPT/25_树-树及其应用-2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "8a44d276f3999948",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/Homework/src/作业25-最小生成树.pdf"
+              }
+            }
+          },
+          {
+            "id": "478c0213e65d95f2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Math/离散数学/PPT/26_树-生成树-2024.pdf"
+              }
+            }
+          },
+          {
+            "id": "e2ef58dc66b2aa08",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "计算系统基础/PPT/L9-指令集体系（W6P1）.pdf"
+              }
+            }
+          },
+          {
+            "id": "87fd4466c50cc528",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算系统基础/4. 时序逻辑电路.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8eed994d4c89e4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算系统基础/3. 数字逻辑电路.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e16bab03a3a5891a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "计算系统基础/期末复习/计算系统基础参考题目.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -91,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "柯里化",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf",
+                "file": "计算系统基础/PPT/L9-指令集体系（W6P1）.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf",
+                "file": "计算系统基础/PPT/L9-指令集体系（W6P1）.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
+                "file": "计算系统基础/PPT/L9-指令集体系（W6P1）.pdf"
               }
             }
           },
@@ -191,7 +241,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Math/离散数学/PPT/22_图论-基本概念-2024.pdf"
+                "file": "计算系统基础/PPT/L9-指令集体系（W6P1）.pdf"
               }
             }
           }
@@ -219,54 +269,54 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ad3a1fcdf56cbeb3",
+  "active": "e2ef58dc66b2aa08",
   "lastOpenFiles": [
+    "计算系统基础/PPT/L8-运算方法和运算部件（W5P1） (1).pdf",
+    "计算系统基础/PPT/L8-运算方法和运算部件（W5P1）.pdf",
+    "计算系统基础/PPT/L7-运算方法和运算部件（W4P2）.pdf",
+    "计算系统基础/4. 时序逻辑电路.md",
+    "计算系统基础/3. 数字逻辑电路.md",
     "计算系统基础/期末复习/计算系统基础参考题目.pdf",
-    "Math/微积分/微积分II/微积分II解析(Part2).pdf",
-    "Math/微积分/微积分II/~$大学微积分Ⅱ答案（下）(1).docx",
-    "Math/微积分/微积分II/南京大学微积分Ⅱ答案（下）(1).docx",
-    "Math/离散数学/PPT/21_循环群与群同构-2024.pdf",
-    "Math/离散数学/PPT/20_子群与群的分解-2024.pdf",
-    "Math/离散数学/Homework/src/作业19-子群与拉格朗日定理.pdf",
-    "Math/微积分/微积分II/微积分II解析.pdf",
+    "Math/离散数学/PPT/26_树-生成树-2024.pdf",
+    "Math/离散数学/PPT/22_图论-基本概念-2024.pdf",
+    "00 NewFile/作业25 - 最小生成树.md",
+    "00 NewFile/作业24 - 树的基本概念和应用.md",
+    "Excalidraw/Drawing 2024-06-14 16.35.36.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-14 16.31.48.excalidraw.md",
+    "Math/离散数学/Homework/作业23 - 欧拉图与哈密尔顿图.md",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第24次作业.pdf",
+    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第25次作业.pdf",
+    "Math/离散数学/Homework/src/作业25-最小生成树.pdf",
+    "00 Resource/res/IMG_3504.jpg",
+    "00 Resource/res/IMG_3503.jpg",
+    "Math/离散数学/Homework/src/作业24-树的基本概念与应用.pdf",
+    "Math/离散数学/PPT/25_树-树及其应用-2024.pdf",
+    "Math/离散数学/Homework/作业22 - 图的连通性.md",
+    "Excalidraw/Drawing 2024-06-14 16.35.36.excalidraw.png",
+    "00 Resource/res/Pasted Image 20240614163551_948.png",
+    "Excalidraw/Drawing 2024-06-14 16.31.48.excalidraw.png",
+    "00 Resource/res/Pasted Image 20240614163203_761.png",
+    "软件工程与计算/Notes on Class/13 Java的其他特性.md",
+    "软件工程与计算/Notes on Class/12 Java面向对象.md",
+    "计算系统基础/2. 数据的机器级表示.md",
+    "计算系统基础/1. 计算系统概述.md",
+    "Excalidraw/Drawing 2024-06-08 15.18.37.excalidraw.md",
+    "Excalidraw/Drawing 2024-06-08 15.18.37.excalidraw.png",
+    "00 NewFile/未命名.md",
+    "Math/离散数学/Homework/作业21 - 图论的基本概念.md",
+    "软件工程与计算/Notes on Class/10 - 1 继承.md",
+    "软件工程与计算/Notes on Class/4. 程序设计基本元素.md",
+    "软件工程与计算/Notes on Class/3. Lambda演算.md",
+    "软件工程与计算/Notes on Class/2. 可计算性.md",
+    "软件工程与计算/Notes on Class/1. 编程语言概述.md",
+    "软件工程与计算/Homework/Homework-A2.md",
+    "软件工程与计算/Homework/Homework-A1.md",
+    "Math/离散数学/Homework/作业20 - 循环群与群同构.md",
     "Miscell/微观经济学/微观经济学 - Chap1需求 供给和均衡价格.md",
     "Miscell/My Latex Symbols.md",
-    "Math/离散数学/Homework/作业19 - 子群与拉格朗日定理.md",
-    "00 NewFile/el.md",
-    "00 NewFile/《媒介理论范式的兴起：基于不同学派的比较分析》读书笔记.md",
-    "计算系统基础/期末复习",
-    "计算系统基础/新建文件夹",
-    "计算系统基础/2. 数据的机器级表示.md",
-    "软件工程与计算/Notes on Class/2. 可计算性.md",
-    "Math/离散数学/Homework/PDFs/231880313-刘鑫鑫-第19次作业.pdf",
-    "Miscell/计划/大一下期末复习计划.md",
-    "Miscell/myrecommend.md",
-    "软件工程与计算/Notes on Class/14 - 解释器.md",
     "00 Resource/res/Pasted image 20240527110801.png",
     "00 Resource/res/Pasted image 20240527104424.png",
-    "Programming/Miscell/Regular Expressions.md",
-    "Programming/C++/C++与Python混合编程 - 用C++调用python.md",
-    "Math/离散数学/Homework/作业16 - 布尔代数.md",
-    "软件工程与计算/Notes on Class/13 Java的其他特性.md",
-    "Programming/Java/Java学习笔记.md",
-    "软件工程与计算/Notes on Class/12 Java面向对象.md",
-    "Programming/Java/Java核心技术笔记/Java核心技术笔记-Basic.md",
     "00 Resource/res/IMG_3052.png",
-    "00 Resource/res/IMG_3051.png",
-    "00 Resource/res/Pasted image 20240520114026.png",
-    "Math/离散数学/Homework/作业15 - 格.md",
-    "Excalidraw/Hw15_P4(1).md",
-    "Excalidraw/Hw15_P4(1).png",
-    "Excalidraw/hw21_p2_2.png",
-    "00 Resource/res/Pasted image 20240513094612.png",
-    "软件工程与计算/Notes on Class/11 Java 基本语法.md",
-    "00 Resource/res/Pasted image 20240513090457.png",
-    "软件工程与计算/SICP/1. 构造过程和抽象.md",
-    "Math/离散数学/Homework/作业14 - 偏序集.md",
-    "00 Resource/res/0509_2.jpg",
-    "软件工程与计算/Notes on Class/8-2 迭代器和生成器.md",
-    "软件工程与计算/Notes on Class/9 面向对象.md",
-    "软件工程与计算/Notes on Class/10 - 1 继承.md",
     "未命名.canvas"
   ]
 }
